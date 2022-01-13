@@ -1,0 +1,187 @@
+.footer_container{
+    background: #31014b;
+     color: white;
+     padding-top: 10px;
+}
+  .footer{
+width: 1060px;
+  }
+    .footer_navbar{
+    
+        display: flex;
+        background-color: rgba(160, 158, 158, 0.432);
+        
+        margin-left: 10px;
+        padding: 30px 20px;
+
+    }
+    
+    .col{
+        flex: 1 1 auto;
+    }
+  
+    .col_title{
+        font-weight: 500;
+        margin-bottom: 30px;
+        position: relative;
+    }
+    .col_title::after{
+        content: "";
+         width: 25px;
+         height: 3px;
+        background-color: rgb(253, 84, 253);
+         position: absolute;
+         bottom: -15px;
+         left: 0;
+
+
+    }
+    .footer_navbar a{
+        font-size: 0.9rem;
+        margin-bottom: 10px;
+        color: white;
+        display: block;
+    }
+    .partner{
+
+        background-color: rgba(160, 158, 158, 0.432);
+        margin-left: 10px;
+        margin-top: 10px;
+       
+    }
+    .partner_logo{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+      
+    }
+     .e_logo{
+height: 60px;
+margin-left: 20px;
+margin-bottom: 10px;
+    }
+    .e_textlogo{
+       height: 30px;
+       margin-left: 20px;
+    }
+
+  .partner_type{
+      display: flex;
+  }
+  .partner_type p {
+      width: 50%;
+      font-size: 0.9rem;
+      margin-top: 10px;
+      margin-left: 30px;
+      margin-bottom: 20px;
+  }
+  .cookie{
+      padding: 20px;
+      background-color: rgba(160, 158, 158, 0.432);
+      margin-top: 10px;
+      margin-left: 10px;
+  }
+  .contact_footer{
+      display: flex;
+      background-color: rgba(160, 158, 158, 0.432);
+      margin-top: 10px;
+      margin-left: 10px;
+   padding: 20px;
+  }
+  .contact_us{
+      display: flex;
+      background-color: rgba(70, 2, 87, 0.685);
+      align-items: center;
+      padding: 10px;
+    height: 80px;
+    align-self: center;
+    margin-right: 50px;
+         
+  }
+  .contact_us i{
+     font-size: 2.2rem;
+
+  }
+ 
+  .contact_icon{
+       border-right: 1px solid white;
+       padding-left: 10px;
+       padding-right: 10px;
+
+  }
+  .contact_us p{
+      text-align: center;
+      font-size: 0.9rem;
+      margin-left: 10px;
+      margin-right: 20px;
+  }
+  .phone_number{
+      font-size: 1.5rem !important;
+  }
+  .rule{
+      width: 330px;
+      text-align: center;
+      font-size: 0.8rem;
+      margin-top: 20px;
+  }
+.contact_logo {
+display: flex;
+margin-left: 50px;
+align-self: center;
+}
+.age_limit{
+font-size: 15px;
+border: 1px solid white;
+height: fit-content;
+padding: 7px 3px;
+border-radius: 50%;
+}
+.contact_icon img{
+height: 200px;
+margin-left: 10px;
+}
+.nav_des{
+position: absolute;
+background-color: var(--main-color);
+width: 200px;
+color: white;
+font-size: 0.8rem;
+top: 20px;
+border: 1px solid white;
+top: 50px;
+left: 50%;
+padding: 10px;
+z-index: 3;
+display: none;
+}
+
+.nav_des::after {
+position: absolute;
+        left: 10%;
+        top: -9px;
+        width: 0;
+        height: 0;
+        content: '';
+       
+        border-right: 10px solid transparent;
+        border-bottom: 10px solid var(--main-color);
+        transform: translateX(-50%);
+        
+    }
+    .nav_des::before{
+        position: absolute;
+        left: 10%;
+        top: -12px;
+        width: 0;
+        height: 0;
+        content: '';
+       
+        border-right: 12px solid transparent;
+        border-bottom: 12px solid #fff;
+        transform: translateX(-50%);
+    }
+.des_header{
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
