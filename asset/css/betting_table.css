@@ -1,0 +1,376 @@
+
+         /* live-bet */
+         .betting_section{
+display: flex;
+background-color: #31014b;
+padding: 0px 10px;
+         }
+
+         .live_bet{
+             width: 1050px;
+           
+         }
+         .mb_10{
+             margin-bottom: 10px;
+         }
+         .live_header{
+             display: flex;
+             justify-content: space-between;
+             background-color: #8e0fd3;
+             padding: 10px 7px;
+             width: 1050px;
+          
+            
+         }
+         .live_search{
+             position: relative;
+             color: var(--main-color);
+            
+         }
+         .live_search input{
+             outline: none;
+             padding: 3px 3px 3px 30px;
+             border: none;
+             color: var(--main-color);
+            
+
+             width: 180px;
+
+         }
+         .live_search input::placeholder{
+             color: var(--main-color);
+         }
+         .live_search i{
+            position: absolute;
+            left: 5px;
+            z-index: 10;
+            color: var(--main-color);
+            top: 4px;
+         }
+         .live_title{
+             color: white;
+         }
+         .betting_nav{
+             display: flex;
+            align-items: center;
+             background-color: var(--main-color);
+             margin-top: 1px;
+             height: 38px;
+             
+         }
+         .betting_nav_item{
+             padding: 0px 10px;
+           font-size: 13px;
+           display: flex;
+               align-items: center;
+               height: 100%;
+               position: relative;
+              
+
+               
+         }
+         .betting_nav_item span, .betting_nav_item i{
+             color: rgba(255, 255, 255, 0.555);
+         }
+         .betting_nav_item:hover span, .betting_nav_item:hover i{
+             color: white;
+         }
+         /* .betting_nav_item:hover i{
+             color: white;
+         } */
+         .betting_nav_item::after{
+         
+                content: "";
+                 width: 100%;
+                 height: 2px;
+                 position: absolute;
+                   bottom: 1px;
+                   left: 0;
+                  background-color: var(--secondary-color); 
+                  transition: 0.3s; 
+                  opacity: 0;
+             }
+             .betting_nav_item:hover:after{
+                opacity: 1;
+             }
+         .betting_active i ,  .betting_active span{
+             color: white !important;
+
+         }
+         .betting_active::after{
+           opacity: 1;
+         }
+         .betting_nav_item i{
+             margin-right: 7px;        }
+     
+         .live_tv{
+           display: flex;
+           align-items: center;
+padding: 0px 15px;
+border-right: 1px solid rgb(0, 13, 85);
+height: 100%;
+position: relative;
+
+
+         }
+         .live_tv i{
+            color: rgba(255, 255, 255, 0.555);
+         }
+         .live_tv:hover i{
+            color: white;
+         }
+         .live_tv::after{
+            content: "";
+             width: 100%;
+             height: 2px;
+             position: absolute;
+               bottom: 1px;
+               left: 0;
+              background-color: var(--secondary-color); 
+              transition: 0.3s; 
+              opacity: 0;
+         }
+         .live_tv:hover::after{
+             opacity: 1;
+
+         }
+         .betting_dropdown_item{
+            position: absolute;
+         top: 40px;
+              left: 0px;
+              background-color: white;
+              font-size: 0.9rem;
+             
+              width: 250px;
+
+            
+             visibility: hidden;
+      
+                     
+               opacity: 0;
+              transition-duration: 0.3s;
+              
+              transition-delay: 0.3s;
+                z-index: 10;
+                height: 200px;
+                overflow-y: scroll;
+         }
+            .betting_nav_item:hover .betting_dropdown_item{
+              opacity: 1;
+              visibility: visible;
+            }
+            .betting_dropdown_item:hover{
+                opacity: 1;
+                  visibility: visible;
+            }
+            .betting_nav_item li{
+                display: flex;
+              justify-content: space-between;
+                align-items: center;
+                color: black;
+              padding: 7px;
+              color: var(--main-color);  
+              border-bottom: 1px solid rgba(59, 118, 255, 0.192);
+              
+               
+            }
+            .mr_3{
+            margin-right: 5px;
+            }
+            .betting_nav_item li 
+            .d_flex{
+                display: flex;
+                height: 100%;
+                align-items: center;
+                
+            }
+            .d_flex img{
+                width: 30px;
+                margin-right: 5px;
+            }
+            .d_count{
+                color: var(--text-color);
+                border-radius: 3px;
+                background-color: #EEF4F8;
+                width: 30px;
+                text-align: center;
+
+
+            }
+             .d_count i{
+                font-size: 0.8rem;
+                color: var(--text-color) !important;
+                margin: 0px 5px;
+            }
+            .dropdown_right{
+                left: unset;
+                right: 0px !important;
+                
+            }
+
+            .table_title{
+                display: flex;
+                background-color: #EEF4F8;
+              
+                align-items: center;
+                height: 33px;
+            }
+            .sport_logo i{
+                color: var(--main-color);
+                font-size: 22px;
+                margin-right: 10px;
+                margin-left: 15px;
+            }
+          
+            .country_logo img {
+              height: 22px;
+              margin-top: 5px;
+              margin-right: 10px;
+
+             
+            }
+            .bet_odds_title{
+                display: flex;
+               width: 100%;
+            margin-left: 15px;
+               font-size: 0.8rem;
+            }
+            .league_name{
+                width: 470px;
+                  display: flex;
+                  justify-content: space-between;
+                  padding-right: 10px;
+                  font-size: 15px;
+                
+            }
+           
+            .league_name:hover a{
+text-decoration: underline;
+            }
+            .bet_odds_title div{
+                flex: 1 1 auto;
+                text-align: center;
+            }
+            .table_body{
+                background-color: white;
+             display: flex;
+                align-items: center;
+            }
+            .icon{
+                width: 30px;
+            }
+            .icon i{
+              color:  #d4eeff;
+              font-size: 20px;
+              transform: rotate(45deg);
+              margin-top: 5px;
+              margin-left:2px;
+            }
+            .table_content{
+               
+                width: 388px;
+                border: 1px solid #EEF4F8;
+                padding: 5px 10px;
+            }
+            .display_flex{
+                display: flex;
+            }
+            .team_name{
+                width: 290px;
+                margin-left: 5px;
+            }
+            .mb_3{
+                margin-bottom: 3px;
+            }
+            .score{
+              width: 55px;
+            }
+            .score .row{
+                display: flex;
+              
+            }
+            .row div{
+                flex: 1;
+            }
+            .match_info{
+                display: flex;
+                margin-top: 5px;
+
+            }
+            .star{
+            width: 30px;
+        }
+        .star i{
+          color:  #acdeff;
+          font-size: 15px;
+        
+         
+          margin-left:2px;
+        }
+        .color_green{
+            color: var(--secondary-color);
+            font-size: 0.9rem;
+        }
+        .color_blue{
+            color: var(--main-color);
+            font-size: 0.9rem;
+            margin-right: 5px;
+        }
+        .duration{
+            width: 285px;
+        }
+.match_status{
+    display: flex;
+    width: 50px;
+}
+.match_status div{
+    flex: 1 1 auto; 
+    font-size: 0.9rem;
+    text-decoration: underline;
+}
+.match_status div i{
+    color: black;
+}
+.odd_col{
+display: flex;
+width: 100%;
+height: 77px;
+
+}
+.odd_col_1,.odd_col_2{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    border: 1px solid  #EEF4F8;
+   
+    
+}
+.odd_col_1 div{
+    flex: 1 1 auto; 
+    font-size: 0.8rem;
+  
+   
+}
+.odd_col_2 div{
+    flex: 1 1 auto; 
+    text-align: center;
+    font-size: 0.8rem;
+ ;
+}
+.odd_value{
+    width: fit-content;
+    padding: 7px 12px;
+    margin: auto;
+    background-color: #EEF4F8;
+    border-radius: 5px;
+   
+}
+@media screen and (max-width: 1310px) {
+    .live_bet{
+        width: 1000px;
+    }
+    .live_header{
+        width: 1000px;
+    }
+  }

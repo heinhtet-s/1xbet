@@ -1,0 +1,197 @@
+ /* main-section */
+ .main_section{
+    display: flex;
+   background-color: #31014b;
+   padding: 10px;
+   justify-content: space-between;
+   
+ 
+}
+.register{
+    width: 345px;
+    background-color: white;
+   
+    text-align: center;
+    margin-right: 10px;
+}
+
+.register_header{
+    width: 100%;
+   
+    background-color: var(--secondary-color);
+    color: white;
+    font-size: 0.8rem;
+   padding: 4px 0px;
+   position: relative;
+}
+.register_header::after{
+    content: "";
+    width: 100%;
+    height: 15%;
+    background-color: rgba(0, 0, 0,0.3);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+    transition: 0.3s;
+}
+.register_header:hover::after{
+    height: 100%;
+}
+.register_body{
+    padding: 10px 18px;
+    height: 360px;
+    overflow-y: scroll;
+}
+.register_body h3{
+color: rgb(0, 21, 138);
+margin-bottom: 15px;
+font-size: 1.3rem;
+margin-top: 5px;
+}
+.register_title{
+    width: 100%;
+   display: flex;
+ color: var(--main-color);
+ font-size: 0.9rem;
+ margin-bottom: 20px;
+
+}
+.one_click{
+    width: 50%;
+    margin-right: 1px;
+    background-color: #D7E5F1;
+    padding: 5px;
+}
+.by_phone{
+    width: 50%;
+    background-color: #D7E5F1;
+    padding: 5px;
+   
+}
+.register_active{
+    background-color: var(--main-color) !important;
+    color: white;
+}
+.form_control{
+    width: 100%;
+    height: 35px;
+    padding: 5px 10px;
+    outline: none;
+    margin-bottom: 10px;
+    border: 1px solid rgba(158, 158, 158, 0.493);
+}
+.form_submit{
+    width: 100%;
+    height: 30px;
+    padding: 5px 10px;
+    border: none;
+    background-color: var(--secondary-color);
+   
+   
+    color: white;
+}
+.form_submit_overlay{
+   position: relative;
+   margin-bottom: 10px;
+}
+.form_submit_overlay::after{
+    content: "";
+    width: 100%;
+    height: 10%;
+    background-color: rgba(0, 0, 0,0.2);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 5;
+    transition: 0.3s;
+    
+}
+.form_submit_overlay:hover::after{
+    height: 100%;
+}
+.policy p{
+    font-size: 0.7rem;
+    color: var(--main-color);
+    margin-bottom: 7px;
+}
+.policy a{
+   color: var(--main-color);
+    text-decoration: underline;
+}
+
+/* slider */
+
+.slider img {
+     width: 100%;
+    
+  object-fit: cover;
+   }
+
+   .slider {
+     overflow: hidden;
+     position: relative;
+     width: 992px;
+     border: 1px solid var(--main-color);
+     
+   }
+
+   .slides {
+ 
+     display: flex;
+     position: absolute;
+     top: 0;
+     left: -992px;
+     cursor: pointer;
+   }
+     
+   .slides.transition {
+     transition: all 0.7s ease-in;
+   }
+
+   .slide {
+     width: 992px;
+     height: 768px;
+   }
+/* 
+   .prev,
+   .next {
+     position: absolute;
+     top: 50%;
+     transform: translateY(-50%);
+     color: #f3f3f3;
+     font-size: 4rem;
+   }
+
+   .next {
+     right: 4rem;
+   }
+
+   .prev {
+     left: 4rem;
+   }
+
+   .prev:active,
+   .next:active {
+     color: #888;
+   } */
+   .indicator{
+       display: flex;
+        position: absolute;
+        bottom: 20px;
+        left: 10%;
+   }
+    .indicate{
+        width: 30px;
+        background-color: white;
+        height: 4px;
+        margin-right: 10px;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+       .indicate:hover{
+           background-color: blue ;
+       }
+    .active{
+        background-color: blue !important;
+    }

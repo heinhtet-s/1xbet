@@ -1,0 +1,359 @@
+
+.right_sidebar{
+    width: 100%;
+    padding: 0px 15px;
+    height: 1280px;
+    overflow-y: scroll;
+}
+.collapse_div{
+    background-color: var(--main-color);
+    text-align: center;
+    padding: 10px;
+    font-size: 10px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.bet_slip{
+background-color: #eee;
+}
+.bet_slip_header{
+    display: flex;
+    overflow: hidden;
+}
+.bet_slip_title,.my_bet{
+  width: 50%;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    background-color: transparent;
+    z-index: 0;
+    cursor: pointer;
+    font-size: 0.9rem;
+
+}
+.bet_slip_title::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    
+    z-index: -1;
+    width: 110%;
+    height: 100%;
+    left: -10px;
+   
+    border-right: 1px solid transparent;
+    transform: skew(16deg);
+    transition: 0.3s;
+    cursor: pointer;
+}
+.my_bet:hover::before,.bet_slip_title:hover::before{
+    background-color: var(--main-color);
+  
+}
+.my_bet:hover,.bet_slip_title:hover{
+    color: white;
+}
+.my_bet::before{
+    content: '';
+    position: absolute;
+    top: 0;
+left: 0;
+    z-index: -1;
+    width: 110%;
+    height: 100%;
+  
+    border-right: 1px solid transparent;
+    transform: skew(16deg);
+    cursor: pointer;
+}
+.bet_slip_active{
+color: white;
+}
+.bet_slip_active::before{
+    background: rgb(219, 177, 219);
+    
+}
+.slip_code{
+    background-color: white;
+    text-align: center;
+    font-size: 0.8rem;
+    padding:  3px;
+    color: var(--main-color);
+    margin:  5px;
+}
+.register_btn{
+    
+    text-align: center;
+    padding: 7px 10px;
+    background-color:  var(--secondary-color);
+    color: white;
+    margin: 0px 5px;
+    font-size: 0.8rem;
+    margin-top: 5px;
+}
+.deposite{
+   padding: 10px;
+   font-size: 0.8rem;
+   text-align: center;
+   border-bottom: 1px solid white;
+
+}
+.save_bet_slip{
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    font-size: 0.8rem;
+}
+.save_bet_slip i{
+    color: black;
+}
+.social_icon{
+    display: flex;
+
+}
+.social_icon div{
+    
+    margin-top: 10px;
+    flex: 1 1 auto;
+    background-color: rgba(128, 128, 128, 0.349);
+    text-align: center;
+   padding: 10px 0px;
+   font-size: 1.5rem;
+transition: 0.3s; 
+margin-bottom: 10px;
+
+}
+.ml_10{
+    margin-left: 7px;
+}
+.mr_10{
+    margin-right: 7px;
+}
+.social_icon div:hover{
+    background-color: rgba(138, 179, 255, 0.349);
+}
+.schedule_title{
+    display: flex;
+    background-color: var(--main-color);
+    color: white;
+    padding: 10px;   
+    font-size: 0.9rem;
+}
+.p_text{
+width: 190px;
+    
+}
+.rotate_left{
+    transform: rotate(-90deg) translate(0px,4px);
+}
+.rotate_right{
+    transform: rotate(90deg) translate(0px,4px);
+}
+.clender{
+  align-self: center;
+}
+.schedule_body{
+    background-color: #eee;
+    padding: 10px;
+}
+.match_detail{
+    background-color: white;
+    display: flex;
+   align-items: center;
+    height: 100%;
+    padding: 10px;
+}
+
+.match_detail i {
+    color: var(--main-color);
+    font-size: 2rem;
+   
+    margin-right: 10px;
+  
+}
+.fs_3{
+    font-size: 0.8rem;
+}
+
+.team_link{
+    color: var(--main-color);
+    font-size: 0.9rem;
+}
+.team_link:hover{
+    text-decoration: underline;
+  
+}
+.match_footer{
+    background-color: var(--main-color);
+    justify-content: space-between;
+    display: flex;
+    color: white;
+    font-size: 0.9rem;
+    padding: 3px 5px;
+}
+.match_footer_odd{
+    font-size: 1rem;
+    
+}
+.today_match{
+    margin-bottom: 15px;
+}
+.today_bonus,.overall_odds{
+    display: flex;
+    justify-content: space-between;
+    color: var(--main-color);
+    
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.fw_bold{
+    font-weight: bold;
+}
+.add_betslip{
+    text-align: center;
+    background-color: var(--secondary-color);
+    padding: 10px;
+    color: white;
+}
+.offer_header{
+    background-color: var(--main-color);
+ display: flex;
+ justify-content: space-between;
+
+    padding: 7px 10px;
+   color: white;
+    width: 100%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+}
+.football_banner{
+ 
+    box-sizing: border-box;
+    padding: 13px;
+    width: 100%;
+    margin-bottom: 15px;
+    background: url('https://v2l.cdnsfree.com/default/img/right-banners/br-banner-bg-decoration.png') center top / cover no-repeat rgb(17, 55, 86);
+    text-transform: uppercase;
+    font-size: 13px;
+    color: rgb(255, 255, 255);
+}
+.text_center{
+ text-align: center;
+}
+.banner_body{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-image: url("https://v2l.cdnsfree.com/default/img/right-banners/bgvs.png");
+
+    background-position: center top 14px;
+    background-repeat: no-repeat;
+    background-size: 90px;
+    margin-bottom: 15px;
+}
+.match_date{
+    width: 40px;
+    height: 40px;
+    background-color: #23507D;
+    border-radius: 50%;
+font-size: 0.7rem;
+margin-top: 15px;
+position: relative;
+z-index: 0;
+border: 0.5px solid rgba(255, 255, 255, 0.452);
+}
+
+.match_date p{
+    margin-left: 7px;
+
+}
+.match_date::before{
+    content: "";
+        width: 25px;
+        height: 2px;
+        position: absolute;
+        top: 50%;
+        background-color: var(--secondary-color);
+        z-index: -1;
+        left: -25px;
+    }
+
+.match_date::after{
+    content: "";
+        width: 25px;
+        height: 2px;
+        position: absolute;
+        top: 50%;
+        background-color: var(--secondary-color);
+        z-index: -1;
+        left: 40px;
+    }
+
+.mt_3{
+    margin-top: 7px;
+}
+.banner_teamname{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.banner_teamname p{
+    font-size: 0.6rem;
+}
+.banner_teamname i{
+    font-size: 1.8rem;
+}
+.banner_odd{
+    display: flex;
+    height: 30px;
+}
+.banner_odd div {
+    flex: 1 1 auto;
+    background-color: #23507D;
+    padding: 5px 10px;
+    text-align: center;
+}
+.place_bet{
+   width: 90px;
+    position: relative;
+    z-index: 0;
+    display: block;
+   color: white;
+  
+  text-align: center;
+  font-size: 0.8rem;
+  padding: 5px 10px;
+  margin-bottom: 10px;
+  height: 100%;
+   line-height: 19px;
+}
+.place_bet::after{
+    content: "";
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: var(--secondary-color);
+    transform: skew(
+    24deg
+    );
+    transform-origin: bottom;
+    z-index: -1;
+}
+.place_bet::before{
+    content: "";
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: var(--secondary-color);
+  
+    transform: skew(-24deg);
+    transform-origin: bottom;
+    z-index: -1;
+}

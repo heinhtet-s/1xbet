@@ -1,0 +1,2393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="asset/css/style.css">
+    <link rel="stylesheet" href="asset/css/main_section.css">
+    <link rel="stylesheet" href="asset/css/header.css">
+    <link rel="stylesheet" href="asset/css/betting_table.css">
+    <link rel="stylesheet" href="asset/css/right_sidebar.css">
+    <style>
+      .footer_container{
+        background: #31014b;
+         color: white;
+         padding-top: 10px;
+    }
+      .footer{
+width: 1060px;
+      }
+        .footer_navbar{
+        
+            display: flex;
+            background-color: rgba(160, 158, 158, 0.432);
+            
+            margin-left: 10px;
+            padding: 30px 20px;
+
+        }
+        
+        .col{
+            flex: 1 1 auto;
+        }
+      
+        .col_title{
+            font-weight: 500;
+            margin-bottom: 30px;
+            position: relative;
+        }
+        .col_title::after{
+            content: "";
+             width: 25px;
+             height: 3px;
+            background-color: rgb(253, 84, 253);
+             position: absolute;
+             bottom: -15px;
+             left: 0;
+
+
+        }
+        .footer_navbar a{
+            font-size: 0.9rem;
+            margin-bottom: 10px;
+            color: white;
+            display: block;
+        }
+        .partner{
+    
+            background-color: rgba(160, 158, 158, 0.432);
+            margin-left: 10px;
+            margin-top: 10px;
+           
+        }
+        .partner_logo{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+          
+        }
+         .e_logo{
+height: 60px;
+margin-left: 20px;
+margin-bottom: 10px;
+        }
+        .e_textlogo{
+           height: 30px;
+           margin-left: 20px;
+        }
+
+      .partner_type{
+          display: flex;
+      }
+      .partner_type p {
+          width: 50%;
+          font-size: 0.9rem;
+          margin-top: 10px;
+          margin-left: 30px;
+          margin-bottom: 20px;
+      }
+      .cookie{
+          padding: 20px;
+          background-color: rgba(160, 158, 158, 0.432);
+          margin-top: 10px;
+          margin-left: 10px;
+      }
+      .contact_footer{
+          display: flex;
+          background-color: rgba(160, 158, 158, 0.432);
+          margin-top: 10px;
+          margin-left: 10px;
+       padding: 20px;
+      }
+      .contact_us{
+          display: flex;
+          background-color: rgba(70, 2, 87, 0.685);
+          align-items: center;
+          padding: 10px;
+        height: 80px;
+        align-self: center;
+        margin-right: 50px;
+             
+      }
+      .contact_us i{
+         font-size: 2.2rem;
+
+      }
+     
+      .contact_icon{
+           border-right: 1px solid white;
+           padding-left: 10px;
+           padding-right: 10px;
+
+      }
+      .contact_us p{
+          text-align: center;
+          font-size: 0.9rem;
+          margin-left: 10px;
+          margin-right: 20px;
+      }
+      .phone_number{
+          font-size: 1.5rem !important;
+      }
+      .rule{
+          width: 330px;
+          text-align: center;
+          font-size: 0.8rem;
+          margin-top: 20px;
+      }
+.contact_logo {
+    display: flex;
+    margin-left: 50px;
+    align-self: center;
+}
+.age_limit{
+    font-size: 15px;
+    border: 1px solid white;
+    height: fit-content;
+    padding: 7px 3px;
+    border-radius: 50%;
+}
+.contact_icon img{
+    height: 200px;
+    margin-left: 10px;
+}
+.nav_des{
+    position: absolute;
+    background-color: var(--main-color);
+    width: 200px;
+    color: white;
+    font-size: 0.8rem;
+    top: 20px;
+    border: 1px solid white;
+    top: 50px;
+    left: 50%;
+    padding: 10px;
+    z-index: 3;
+    display: none;
+}
+
+.nav_des::after {
+    position: absolute;
+            left: 10%;
+            top: -9px;
+            width: 0;
+            height: 0;
+            content: '';
+           
+            border-right: 10px solid transparent;
+            border-bottom: 10px solid var(--main-color);
+            transform: translateX(-50%);
+            
+        }
+        .nav_des::before{
+            position: absolute;
+            left: 10%;
+            top: -12px;
+            width: 0;
+            height: 0;
+            content: '';
+           
+            border-right: 12px solid transparent;
+            border-bottom: 12px solid #fff;
+            transform: translateX(-50%);
+        }
+    .des_header{
+        font-size: 0.9rem;
+        font-weight: 600;
+        margin-bottom: 5px;
+    }
+ </style>
+</head>
+
+<body>
+ 
+    <div class="container">
+    <div class="header_info">
+        
+       <div class="left_header_info">
+           <a href="" class="laptop left_header_item">
+            
+                <i class="fas fa-desktop"></i>
+               <div class="nav_des">
+
+               
+             
+                   <div class="des_header">
+                       Smart phone app
+                   </div>
+                   <div>
+                    The 1xBet app makes betting simpler and easier
+                   </div>
+                      
+                   
+            
+            </div>
+           </a>
+           
+               <a href="" class="mobile left_header_item">
+               
+                    <i class="fas fa-mobile-alt"></i>
+                    
+                    <div class="nav_des">
+
+               
+             
+                        <div class="des_header">
+                            Smart phone app
+                        </div>
+                        <div>
+                         The 1xBet app makes betting simpler and easier
+                        </div>
+                       
+                    
+             
+                 </div>
+               </a>
+           
+        
+        
+            <a href="" class="telegram left_header_item">
+               
+                    <i class="fab fa-telegram"></i>
+                    <div class="nav_des">
+
+               
+             
+                        <div class="des_header">
+                            Smart phone app
+                        </div>
+                        <div>
+                         The 1xBet app makes betting simpler and easier
+                        </div>
+                       
+                    
+             
+                 </div>
+            </a>
+           
+        
+        <a href="" class="dollar left_header_item">
+           
+                <i class="fas fa-dollar-sign"></i>
+                <div class="nav_des">
+
+               
+             
+                    <div class="des_header">
+                        Smart phone app
+                    </div>
+                    <div>
+                     The 1xBet app makes betting simpler and easier
+                    </div>
+                       
+                    
+             
+             </div>
+        </a>
+        <a href="" class="phone left_header_item">
+           
+                <i class="fas fa-phone-alt"></i>
+                <div class="nav_des">
+
+               
+             
+                    <div class="des_header">
+                        Smart phone app
+                    </div>
+                    <div>
+                     The 1xBet app makes betting simpler and easier
+                    </div>
+                       
+                    
+             
+             </div>
+        </a>
+       
+        <a href="" class="bonus" >
+            
+              <p>160000 MMK</p> 
+              <p class="line-height">  BONUS</p>
+             
+         
+        </a>
+        </div>
+       
+       
+        
+      
+       
+    
+       
+       <div class="right_header_info">
+        <a href="" class="right_header_item" >
+
+                <i class="fas fa-qrcode"></i>
+             
+            
+        </a>
+        <a href=""  class="header_login" >
+            
+                <i class="fas fa-sign-in-alt"></i>
+             <span> LOG IN </span>
+            
+        </a>
+        <a href="" class="header_registion"  >
+            
+                <i class="fas fa-edit"></i> 
+             <span> REGISTRATION </span>
+        
+        </a>
+        <a href=""  class="right_header_item" >
+            
+                
+             <i class="fas fa-cog"></i> <i class="fas fa-chevron-down arrow_fs"></i> 
+            
+        </a>
+        <a href="" class="right_header_item" >
+            
+            
+             <span> 19:11</span>  </i> <i class="fas fa-chevron-down arrow_fs"></i> 
+            
+        </a>
+        <a href="" class="right_header_item nav_flat"  >
+
+            <img src="asset/img/uk.png" class="flag" alt="">
+             <span class="fs-11 "> EN  </span>  <i class="fas fa-chevron-down arrow_fs"></i>
+
+        </a>
+       </div>
+    </div>
+    <nav class="navbar">
+       <div class="logo">
+           <img src="https://v2l.cdnsfree.com/genfiles/cms/pg/70/images/09ef1ad2e0b8613684c2d1cd91f4d3a6.svg" width="130" alt="">
+       </div> 
+
+       <div class="new">
+           <a href="">new <i class="fas fa-chevron-right"></i> </i></a>
+       </div>
+       <div class="car">
+       <img src="/asset/img/car.png"  alt="">
+       </div>
+       <div class="nav_item">
+         <span> SPORTS</span>
+         <i class="fas fa-chevron-down arrow_fs arrow"></i>
+         <ul class="dropdown_item">
+             <li>Bet on your National Team</li>
+             <li>Bet on Big Tournaments</li>
+             <li> Bet Constructor </li>
+             <li>Wiseodds</li>
+             <li>Bet on UFC</li>
+             <li>Bet on Politics</li>
+         </ul>
+       </div>
+       <div class="nav_item">
+        <span> LIVE</span>
+        <i class="fas fa-chevron-down arrow_fs arrow"></i>
+        <ul class="dropdown_item">
+            <li>Bet on your National Team</li>
+            <li>Bet on Big Tournaments</li>
+            <li> Bet Constructor </li>
+            <li>Wiseodds</li>
+            <li>Bet on UFC</li>
+            <li>Bet on Politics</li>
+        </ul>
+      </div>
+      <div class="nav_item">
+        <span> PROMO</span>
+        <i class="fas fa-chevron-down arrow_fs arrow"></i>
+        <ul class="dropdown_item">
+            <li>Bet on your National Team</li>
+            <li>Bet on Big Tournaments</li>
+            <li> Bet Constructor </li>
+            <li>Wiseodds</li>
+            <li>Bet on UFC</li>
+            <li>Bet on Politics</li>
+        </ul>
+      </div>
+      <div class="nav_item">
+        <span>   CASINO</span>
+        <i class="fas fa-chevron-down arrow_fs arrow"></i>
+        <ul class="dropdown_item">
+            <li>Bet on your National Team</li>
+            <li>Bet on Big Tournaments</li>
+            <li> Bet Constructor </li>
+            <li>Wiseodds</li>
+            <li>Bet on UFC</li>
+            <li>Bet on Politics</li>
+        </ul>
+      </div>
+      <div class="nav_item">
+        <span>    LIVE CASINO</span>
+        <i class="fas fa-chevron-down arrow_fs arrow"></i>
+        <ul class="dropdown_item">
+            <li>Bet on your National Team</li>
+            <li>Bet on Big Tournaments</li>
+            <li> Bet Constructor </li>
+            <li>Wiseodds</li>
+            <li>Bet on UFC</li>
+            <li>Bet on Politics</li>
+        </ul>
+      </div>
+      <div class="nav_item">
+        <span>    1XGAMES</span>
+        <i class="fas fa-chevron-down arrow_fs arrow"></i>
+        <ul class="dropdown_item">
+            <li>Bet on your National Team</li>
+            <li>Bet on Big Tournaments</li>
+            <li> Bet Constructor </li>
+            <li>Wiseodds</li>
+            <li>Bet on UFC</li>
+            <li>Bet on Politics</li>
+        </ul>
+      </div>
+      <div class="nav_item">
+        <span>    ESORTS</span>
+        <i class="fas fa-chevron-down arrow_fs arrow"></i>
+        <ul class="dropdown_item">
+            <li>Bet on your National Team</li>
+            <li>Bet on Big Tournaments</li>
+            <li> Bet Constructor </li>
+            <li>Wiseodds</li>
+            <li>Bet on UFC</li>
+            <li>Bet on Politics</li>
+        </ul>
+      </div>
+      <div class="nav_item">
+        <span>    TV GAMES</span>
+        <i class="fas fa-chevron-down arrow_fs arrow"></i>
+        <ul class="dropdown_item">
+            <li>Bet on your National Team</li>
+            <li>Bet on Big Tournaments</li>
+            <li> Bet Constructor </li>
+            <li>Wiseodds</li>
+            <li>Bet on UFC</li>
+            <li>Bet on Politics</li>
+        </ul>
+      </div>
+      <div class="nav_item">
+        <span>   MORE</span>
+        <i class="fas fa-chevron-down arrow_fs arrow"></i>
+        <ul class="dropdown_item">
+            <li>Bet on your National Team</li>
+            <li>Bet on Big Tournaments</li>
+            <li> Bet Constructor </li>
+            <li>Wiseodds</li>
+            <li>Bet on UFC</li>
+            <li>Bet on Politics</li>
+        </ul>
+      </div>
+    </nav>
+   
+    <div class="main_section">
+        <div class="register">
+       <div class="register_header">
+     100% BONUS ON THE 1ST DEPOSITE
+    
+
+     </div>
+              <div class="register_body">
+                <h3>REGISTRATION</h3>
+                <div class="register_title">
+                    <div class="one_click register_active">
+                        One-click
+                    </div>
+                    <div class="by_phone">
+                        By phone
+                    </div>
+                </div>
+                <form >
+                    <input type="text" class="form_control" placeholder="Search Country">
+                    <input type="text" class="form_control" name="" id="" placeholder="Currency">
+                    <input type="text" class="form_control" placeholder="Enter promo code (if you have one)">
+                    <div class="form_submit_overlay">
+                        <input type="submit" value="Register" class="form_submit">
+                    </div>
+                     
+                </form>
+                <div class="policy">
+                    <p>This site is protected by reCAPTCHA and the Google <a href="">Privacy Policy </a> and <a href=""> Terms of Service apply.</a></p> 
+                    <p>By clicking this button you confirm that you have read and agree to the <a href=""> Terms and Conditions </a>and <a href=""> Privacy Policy</a> of the company and confirm that you are of legal age
+                  </p>
+                </div>
+                </div>
+
+              
+                
+        </div>
+      
+        <div class="slider">
+            <div class="slides" id="slides">
+              <div class="slide">
+                <img src="https://v2l.cdnsfree.com/genfiles/cms/designed_banners/1/image/e3b9d8b7f12c7870e37ed670c1bb1319.jpg" alt="" />
+              </div>
+              <div class="slide">
+                <img src="https://v2l.cdnsfree.com/genfiles/cms/designed_banners/1/image/007b992051a57c41b823f9e5b05ddd67.jpg" alt="" />
+              </div>
+              <div class="slide">
+                <img src="https://v2l.cdnsfree.com/genfiles/cms/designed_banners/1/image/0443a23deb9cfe638d1d30798bdfcc71.jpg" alt="" />
+              </div>
+         
+            </div>
+  
+            <!-- <a href="#" id="prev" class="prev">
+              <i class="fas fa-caret-left"></i>
+            </a>
+            <a href="#" id="next" class="next">
+              <i class="fas fa-caret-right"></i>
+            </a> -->
+            <div class="indicator">
+                <div class="indicate active" onclick="show(0)" > </div>
+                  <div class="indicate"  onclick="show(1)" ></div>
+                  <div class="indicate"  onclick="show(2)"></div>
+         
+           
+            
+            </div>
+          </div>
+    
+  
+   
+    
+    
+    
+    
+    </div>
+    <div class="betting_section">
+        
+        <div class="live_bet">
+            <div class="mb_10">
+         <div class="live_header">
+            <p class="live_title">
+                LIVE BETS
+            </p>
+            <div class="live_search ">
+                <form action="">
+                    <input type="text" placeholder="Search">
+                    <i class="fas fa-search"></i>
+                </form>
+            </div>
+         </div>
+         <div class="betting_nav ">
+            <a href="" class="live_tv ">
+                
+                <i class="fas fa-desktop"></i>
+               
+            </a>
+            <a href="" class="betting_nav_item betting_active">
+               
+                <i class="fas fa-border-all"></i>
+                <span> All </span>
+            </a>
+            <a href="" class="betting_nav_item">
+               
+                <i class="fas fa-futbol"></i>
+                <span>Football</span>
+                <ul class="betting_dropdown_item">
+                    <li> <div class="d_flex"><img src="asset/img/flat_1.png" "  alt=""> <p>Spain.Laliga</p></div>   <div class="d_count"> 1  <i class="fas fa-chevron-right "></i></div>
+                    <li> <div class="d_flex"><img src="asset/img/flat_1.png"  alt=""> <p>Spain.Laliga</p></div>   <div class="d_count"> 1  <i class="fas fa-chevron-right "></i></div>
+                    <li> <div class="d_flex"><img src="asset/img/flat_1.png"  alt=""> <p>Spain.Laliga</p></div>   <div class="d_count"> 1  <i class="fas fa-chevron-right "></i></div>
+                    <li> <div class="d_flex"><img src="asset/img/flat_1.png"  alt=""> <p>Spain.Laliga</p></div>   <div class="d_count"> 1  <i class="fas fa-chevron-right "></i></div>
+                    <li> <div class="d_flex"><img src="asset/img/flat_1.png"  alt=""> <p>Spain.Laliga</p></div>   <div class="d_count"> 1  <i class="fas fa-chevron-right "></i></div>
+                    <li> <div class="d_flex"><img src="asset/img/flat_1.png"  alt=""> <p>Spain.Laliga</p></div>   <div class="d_count"> 1  <i class="fas fa-chevron-right "></i></div>
+                  
+                </ul>
+            </a>
+            <a href="" class="betting_nav_item">
+                <i class="fas fa-baseball-ball"></i>
+                <span> Tennis</span>
+                <ul class="betting_dropdown_item">
+                    <li> <div class="d_flex"><img src="asset/img/flat_1.png" "  alt=""> <p>Spain.Laliga</p></div>   <div class="d_count"> 1  <i class="fas fa-chevron-right "></i></div>
+                    <li> <div class="d_flex"><img src="asset/img/flat_1.png"  alt=""> <p>Spain.Laliga</p></div>   <div class="d_count"> 1  <i class="fas fa-chevron-right "></i></div>
+                    <li> <div class="d_flex"><img src="asset/img/flat_1.png"  alt=""> <p>Spain.Laliga</p></div>   <div class="d_count"> 1  <i class="fas fa-chevron-right "></i></div>
+                    <li> <div class="d_flex"><img src="asset/img/flat_1.png"  alt=""> <p>Spain.Laliga</p></div>   <div class="d_count"> 1  <i class="fas fa-chevron-right "></i></div>
+                    <li> <div class="d_flex"><img src="asset/img/flat_1.png"  alt=""> <p>Spain.Laliga</p></div>   <div class="d_count"> 1  <i class="fas fa-chevron-right "></i></div>
+                    <li> <div class="d_flex"><img src="asset/img/flat_1.png"  alt=""> <p>Spain.Laliga</p></div>   <div class="d_count"> 1  <i class="fas fa-chevron-right "></i></div>
+                  
+                </ul>
+               
+            </a>
+            <a href="" class="betting_nav_item">
+                <i class="fas fa-basketball-ball"></i>
+                <span> Basketball </span>
+                <ul class="betting_dropdown_item">
+                    <li> <div class="d_flex"><img src="asset/img/flat_1.png" "  alt=""> <p>Spain.Laliga</p></div>   <div class="d_count"> 1  <i class="fas fa-chevron-right "></i></div>
+                    <li> <div class="d_flex"><img src="asset/img/flat_1.png"  alt=""> <p>Spain.Laliga</p></div>   <div class="d_count"> 1  <i class="fas fa-chevron-right "></i></div>
+                    <li> <div class="d_flex"><img src="asset/img/flat_1.png"  alt=""> <p>Spain.Laliga</p></div>   <div class="d_count"> 1  <i class="fas fa-chevron-right "></i></div>
+                    <li> <div class="d_flex"><img src="asset/img/flat_1.png"  alt=""> <p>Spain.Laliga</p></div>   <div class="d_count"> 1  <i class="fas fa-chevron-right "></i></div>
+                    <li> <div class="d_flex"><img src="asset/img/flat_1.png"  alt=""> <p>Spain.Laliga</p></div>   <div class="d_count"> 1  <i class="fas fa-chevron-right "></i></div>
+                    <li> <div class="d_flex"><img src="asset/img/flat_1.png"  alt=""> <p>Spain.Laliga</p></div>   <div class="d_count"> 1  <i class="fas fa-chevron-right "></i></div>
+                  
+                </ul>
+            </a>
+            <a href="" class="betting_nav_item">
+                <i class="far fa-futbol"></i>
+                <span>Ice Hockey</span>
+                <ul class="betting_dropdown_item">
+                    <li> <div class="d_flex"><img src="asset/img/flat_1.png" "  alt=""> <p>Spain.Laliga</p></div>   <div class="d_count"> 1  <i class="fas fa-chevron-right "></i></div>
+                    <li> <div class="d_flex"><img src="asset/img/flat_1.png"  alt=""> <p>Spain.Laliga</p></div>   <div class="d_count"> 1  <i class="fas fa-chevron-right "></i></div>
+                    <li> <div class="d_flex"><img src="asset/img/flat_1.png"  alt=""> <p>Spain.Laliga</p></div>   <div class="d_count"> 1  <i class="fas fa-chevron-right "></i></div>
+                    <li> <div class="d_flex"><img src="asset/img/flat_1.png"  alt=""> <p>Spain.Laliga</p></div>   <div class="d_count"> 1  <i class="fas fa-chevron-right "></i></div>
+                    <li> <div class="d_flex"><img src="asset/img/flat_1.png"  alt=""> <p>Spain.Laliga</p></div>   <div class="d_count"> 1  <i class="fas fa-chevron-right "></i></div>
+                    <li> <div class="d_flex"><img src="asset/img/flat_1.png"  alt=""> <p>Spain.Laliga</p></div>   <div class="d_count"> 1  <i class="fas fa-chevron-right "></i></div>
+                  
+                </ul>
+
+            </a>
+           <a href="" class="betting_nav_item">
+            <i class="fas fa-volleyball-ball"></i>
+            <span>Volleryball</span>
+            <ul class="betting_dropdown_item">
+                <li> <div class="d_flex"><img src="asset/img/flat_1.png" "  alt=""> <p>Spain.Laliga</p></div>   <div class="d_count"> 1  <i class="fas fa-chevron-right "></i></div>
+                <li> <div class="d_flex"><img src="asset/img/flat_1.png"  alt=""> <p>Spain.Laliga</p></div>   <div class="d_count"> 1  <i class="fas fa-chevron-right "></i></div>
+                <li> <div class="d_flex"><img src="asset/img/flat_1.png"  alt=""> <p>Spain.Laliga</p></div>   <div class="d_count"> 1  <i class="fas fa-chevron-right "></i></div>
+                <li> <div class="d_flex"><img src="asset/img/flat_1.png"  alt=""> <p>Spain.Laliga</p></div>   <div class="d_count"> 1  <i class="fas fa-chevron-right "></i></div>
+                <li> <div class="d_flex"><img src="asset/img/flat_1.png"  alt=""> <p>Spain.Laliga</p></div>   <div class="d_count"> 1  <i class="fas fa-chevron-right "></i></div>
+                <li> <div class="d_flex"><img src="asset/img/flat_1.png"  alt=""> <p>Spain.Laliga</p></div>   <div class="d_count"> 1  <i class="fas fa-chevron-right "></i></div>
+                  
+            </ul>
+           </a>
+           <a href="" class="betting_nav_item">
+            <i class="fas fa-table-tennis"></i>
+            <span>
+                table-tenis
+            </span>
+            <ul class="betting_dropdown_item">
+                <li> <div class="d_flex"><img src="asset/img/flat_1.png" "  alt=""> <p>Spain.Laliga</p></div>   <div class="d_count"> 1  <i class="fas fa-chevron-right "></i></div>
+                <li> <div class="d_flex"><img src="asset/img/flat_1.png"  alt=""> <p>Spain.Laliga</p></div>   <div class="d_count"> 1  <i class="fas fa-chevron-right "></i></div>
+                <li> <div class="d_flex"><img src="asset/img/flat_1.png"  alt=""> <p>Spain.Laliga</p></div>   <div class="d_count"> 1  <i class="fas fa-chevron-right "></i></div>
+                <li> <div class="d_flex"><img src="asset/img/flat_1.png"  alt=""> <p>Spain.Laliga</p></div>   <div class="d_count"> 1  <i class="fas fa-chevron-right "></i></div>
+                <li> <div class="d_flex"><img src="asset/img/flat_1.png"  alt=""> <p>Spain.Laliga</p></div>   <div class="d_count"> 1  <i class="fas fa-chevron-right "></i></div>
+                <li> <div class="d_flex"><img src="asset/img/flat_1.png"  alt=""> <p>Spain.Laliga</p></div>   <div class="d_count"> 1  <i class="fas fa-chevron-right "></i></div>
+                  
+            </ul>
+           </a>
+          <a href=""  class="betting_nav_item">
+            <i class="far fa-futbol"></i>
+            <span>
+                Handball
+            </span>
+            <ul class="betting_dropdown_item">
+                <li> <div class="d_flex"><img src="asset/img/flat_1.png" "  alt=""> <p>Spain.Laliga</p></div>   <div class="d_count"> 1  <i class="fas fa-chevron-right "></i></div>
+                <li> <div class="d_flex"><img src="asset/img/flat_1.png"  alt=""> <p>Spain.Laliga</p></div>   <div class="d_count"> 1  <i class="fas fa-chevron-right "></i></div>
+                <li> <div class="d_flex"><img src="asset/img/flat_1.png"  alt=""> <p>Spain.Laliga</p></div>   <div class="d_count"> 1  <i class="fas fa-chevron-right "></i></div>
+                <li> <div class="d_flex"><img src="asset/img/flat_1.png"  alt=""> <p>Spain.Laliga</p></div>   <div class="d_count"> 1  <i class="fas fa-chevron-right "></i></div>
+                <li> <div class="d_flex"><img src="asset/img/flat_1.png"  alt=""> <p>Spain.Laliga</p></div>   <div class="d_count"> 1  <i class="fas fa-chevron-right "></i></div>
+                <li> <div class="d_flex"><img src="asset/img/flat_1.png"  alt=""> <p>Spain.Laliga</p></div>   <div class="d_count"> 1  <i class="fas fa-chevron-right "></i></div>
+                  
+            </ul>
+          </a>
+           <a href="" class="betting_nav_item">
+            <i class="far fa-futbol"></i>
+            <span>
+            Cricket
+            </span>
+            <ul class="betting_dropdown_item">
+                <li> <div class="d_flex"><img src="asset/img/flat_1.png" "  alt=""> <p>Spain.Laliga</p></div>   <div class="d_count"> 1  <i class="fas fa-chevron-right "></i></div>
+                <li> <div class="d_flex"><img src="asset/img/flat_1.png"  alt=""> <p>Spain.Laliga</p></div>   <div class="d_count"> 1  <i class="fas fa-chevron-right "></i></div>
+                <li> <div class="d_flex"><img src="asset/img/flat_1.png"  alt=""> <p>Spain.Laliga</p></div>   <div class="d_count"> 1  <i class="fas fa-chevron-right "></i></div>
+                <li> <div class="d_flex"><img src="asset/img/flat_1.png"  alt=""> <p>Spain.Laliga</p></div>   <div class="d_count"> 1  <i class="fas fa-chevron-right "></i></div>
+                <li> <div class="d_flex"><img src="asset/img/flat_1.png"  alt=""> <p>Spain.Laliga</p></div>   <div class="d_count"> 1  <i class="fas fa-chevron-right "></i></div>
+                <li> <div class="d_flex"><img src="asset/img/flat_1.png"  alt=""> <p>Spain.Laliga</p></div>   <div class="d_count"> 1  <i class="fas fa-chevron-right "></i></div>
+                  
+            </ul>
+           </a>
+         
+           <a  href="" class="betting_nav_item">
+            <i class="fas fa-bars"></i>
+         <i class="fas fa-chevron-down arrow_fs"></i> 
+         <ul class="betting_dropdown_item dropdown_right">
+            <li> <div class="d_flex"><img src="asset/img/flat_1.png" "  alt=""> <p>Spain.Laliga</p></div>   <div class="d_count"> 1  <i class="fas fa-chevron-right "></i></div>
+            <li> <div class="d_flex"><img src="asset/img/flat_1.png"  alt=""> <p>Spain.Laliga</p></div>   <div class="d_count"> 1  <i class="fas fa-chevron-right "></i></div>
+            <li> <div class="d_flex"><img src="asset/img/flat_1.png"  alt=""> <p>Spain.Laliga</p></div>   <div class="d_count"> 1  <i class="fas fa-chevron-right "></i></div>
+            <li> <div class="d_flex"><img src="asset/img/flat_1.png"  alt=""> <p>Spain.Laliga</p></div>   <div class="d_count"> 1  <i class="fas fa-chevron-right "></i></div>
+            <li> <div class="d_flex"><img src="asset/img/flat_1.png"  alt=""> <p>Spain.Laliga</p></div>   <div class="d_count"> 1  <i class="fas fa-chevron-right "></i></div>
+            <li> <div class="d_flex"><img src="asset/img/flat_1.png"  alt=""> <p>Spain.Laliga</p></div>   <div class="d_count"> 1  <i class="fas fa-chevron-right "></i></div>
+              
+        </ul>
+           </a >
+           <a href=""  class="betting_nav_item">
+            <i class="fas fa-gamepad"></i>
+         <i class="fas fa-chevron-down arrow_fs"></i> 
+         <ul class="betting_dropdown_item dropdown_right">
+            <li> <div class="d_flex"><img src="asset/img/flat_1.png" "  alt=""> <p>Spain.Laliga</p></div>   <div class="d_count"> 1  <i class="fas fa-chevron-right "></i></div>
+            <li> <div class="d_flex"><img src="asset/img/flat_1.png"  alt=""> <p>Spain.Laliga</p></div>   <div class="d_count"> 1  <i class="fas fa-chevron-right "></i></div>
+            <li> <div class="d_flex"><img src="asset/img/flat_1.png"  alt=""> <p>Spain.Laliga</p></div>   <div class="d_count"> 1  <i class="fas fa-chevron-right "></i></div>
+            <li> <div class="d_flex"><img src="asset/img/flat_1.png"  alt=""> <p>Spain.Laliga</p></div>   <div class="d_count"> 1  <i class="fas fa-chevron-right "></i></div>
+            <li> <div class="d_flex"><img src="asset/img/flat_1.png"  alt=""> <p>Spain.Laliga</p></div>   <div class="d_count"> 1  <i class="fas fa-chevron-right "></i></div>
+            <li> <div class="d_flex"><img src="asset/img/flat_1.png"  alt=""> <p>Spain.Laliga</p></div>   <div class="d_count"> 1  <i class="fas fa-chevron-right "></i></div>
+              
+        </ul>
+           </a >
+         </div>
+         <div class="betting_table">
+             <div class="table_title">
+                 <div class="sport_logo">
+ 
+                    <i class="fas fa-futbol"></i>
+
+                 </div>
+                 <div class="country_logo">
+                    <img src="asset/img/flat_1.png" alt="">
+                  
+
+                 </div>
+                 <div class="league_name">
+                     <a href="">
+                        England . FA Cup</a>
+                        <div>
+                            +
+                        </div>
+                 </div>
+                 <div class="bet_odds_title">
+                       <div>
+                           1
+                       </div>
+                       <div>
+                           X
+                       </div>
+                       <div>
+                        2
+                    </div>
+                    <div>
+                        1X
+                    </div>
+                    <div>
+                        12
+                    </div>
+                    <div>
+                        2X
+                    </div>
+                 </div>
+             </div>
+              <div class="table_body">
+                <div class="table_content">
+                    <div class="display_flex">
+
+                   
+                  <div class="icon">
+                    <i class="fas fa-thumbtack"></i>
+                  </div>
+                  <div class="team_name">
+                    <a href=""> 
+                        <p class="mb_3">Sevilla</p>
+                        <p>Getafe</p>
+                    </a>
+                  </div>
+                  <div class="score">
+                      <div class="row">
+                          <div> 1</div>
+                          <div> 1 </div>
+                          <div> 0 </div>
+                      </div>
+                      <div class="row">
+                        <div> 1</div>
+                        <div> 0 </div>
+                        <div> 0 </div>
+                    </div>
+                    
+                  </div>
+              </div>
+              <div class="match_info">
+                <div class="star">
+                    <i class="far fa-star"></i>
+                  </div>
+                  <div class="duration">
+                    <span class="color_blue">34:55</span>
+                    <span class="color_green">1 Half</span>
+                  </div>
+                  <div class="match_status">
+                      <div>
+                          314
+                      </div>
+                         <div class="down">
+                            <i class="fas fa-chevron-down arrow_fs"></i> 
+                         </div>
+                  </div>
+              </div>
+
+            </div>
+            <div class="odd_col">
+                <div class="odd_col_1">
+                    <div >
+                       <p class="odd_value">  5.28</p>
+                    </div>
+                    <div >
+                        <p class="odd_value">  5.28</p>
+                   </div>
+                   <div >
+                    <p class="odd_value">  5.28</p>
+                   </div>
+               </div>
+               <div class="odd_col_2">
+                   <div>
+                    <p class="odd_value">  5.28</p>
+                   </div>
+                   <div >
+                    <p class="odd_value">  5.28</p>
+                  </div>
+                  <div>
+                    <p class="odd_value">  5.28</p>
+                  </div>
+               </div>
+            </div>
+          
+            </div>
+            <div class="table_body">
+                <div class="table_content">
+                    <div class="display_flex">
+
+                   
+                  <div class="icon">
+                    <i class="fas fa-thumbtack"></i>
+                  </div>
+                  <div class="team_name">
+                    <a href=""> 
+                        <p class="mb_3">Sevilla</p>
+                        <p>Getafe</p>
+                    </a>
+                  </div>
+                  <div class="score">
+                      <div class="row">
+                          <div> 1</div>
+                          <div> 1 </div>
+                          <div> 0 </div>
+                      </div>
+                      <div class="row">
+                        <div> 1</div>
+                        <div> 0 </div>
+                        <div> 0 </div>
+                    </div>
+                    
+                  </div>
+              </div>
+              <div class="match_info">
+                <div class="star">
+                    <i class="far fa-star"></i>
+                  </div>
+                  <div class="duration">
+                    <span class="color_blue">34:55</span>
+                    <span class="color_green">1 Half</span>
+                  </div>
+                  <div class="match_status">
+                      <div>
+                          314
+                      </div>
+                         <div class="down">
+                            <i class="fas fa-chevron-down arrow_fs"></i> 
+                         </div>
+                  </div>
+              </div>
+
+            </div>
+            <div class="odd_col">
+                <div class="odd_col_1">
+                    <div >
+                       <p class="odd_value">  5.28</p>
+                    </div>
+                    <div >
+                        <p class="odd_value">  5.28</p>
+                   </div>
+                   <div >
+                    <p class="odd_value">  5.28</p>
+                   </div>
+               </div>
+               <div class="odd_col_2">
+                   <div>
+                    <p class="odd_value">  5.28</p>
+                   </div>
+                   <div >
+                    <p class="odd_value">  5.28</p>
+                  </div>
+                  <div>
+                    <p class="odd_value">  5.28</p>
+                  </div>
+               </div>
+            </div>
+          
+            </div>
+            <div class="table_title">
+                <div class="sport_logo">
+
+                   <i class="fas fa-futbol"></i>
+
+                </div>
+                <div class="country_logo">
+                   <img src="asset/img/flat_1.png" alt="">
+                 
+
+                </div>
+                <div class="league_name">
+                    <a href="">
+                       England . FA Cup</a>
+                       <div>
+                           +
+                       </div>
+                </div>
+                <div class="bet_odds_title">
+                      <div>
+                          1
+                      </div>
+                      <div>
+                          X
+                      </div>
+                      <div>
+                       2
+                   </div>
+                   <div>
+                       1X
+                   </div>
+                   <div>
+                       12
+                   </div>
+                   <div>
+                       2X
+                   </div>
+                </div>
+            </div>
+             <div class="table_body">
+               <div class="table_content">
+                   <div class="display_flex">
+
+                  
+                 <div class="icon">
+                   <i class="fas fa-thumbtack"></i>
+                 </div>
+                 <div class="team_name">
+                   <a href=""> 
+                       <p class="mb_3">Sevilla</p>
+                       <p>Getafe</p>
+                   </a>
+                 </div>
+                 <div class="score">
+                     <div class="row">
+                         <div> 1</div>
+                         <div> 1 </div>
+                         <div> 0 </div>
+                     </div>
+                     <div class="row">
+                       <div> 1</div>
+                       <div> 0 </div>
+                       <div> 0 </div>
+                   </div>
+                   
+                 </div>
+             </div>
+             <div class="match_info">
+               <div class="star">
+                   <i class="far fa-star"></i>
+                 </div>
+                 <div class="duration">
+                   <span class="color_blue">34:55</span>
+                   <span class="color_green">1 Half</span>
+                 </div>
+                 <div class="match_status">
+                     <div>
+                         314
+                     </div>
+                        <div class="down">
+                           <i class="fas fa-chevron-down arrow_fs"></i> 
+                        </div>
+                 </div>
+             </div>
+
+           </div>
+           <div class="odd_col">
+               <div class="odd_col_1">
+                   <div >
+                      <p class="odd_value">  5.28</p>
+                   </div>
+                   <div >
+                       <p class="odd_value">  5.28</p>
+                  </div>
+                  <div >
+                   <p class="odd_value">  5.28</p>
+                  </div>
+              </div>
+              <div class="odd_col_2">
+                  <div>
+                   <p class="odd_value">  5.28</p>
+                  </div>
+                  <div >
+                   <p class="odd_value">  5.28</p>
+                 </div>
+                 <div>
+                   <p class="odd_value">  5.28</p>
+                 </div>
+              </div>
+           </div>
+         
+           </div>
+           <div class="table_body">
+               <div class="table_content">
+                   <div class="display_flex">
+
+                  
+                 <div class="icon">
+                   <i class="fas fa-thumbtack"></i>
+                 </div>
+                 <div class="team_name">
+                   <a href=""> 
+                       <p class="mb_3">Sevilla</p>
+                       <p>Getafe</p>
+                   </a>
+                 </div>
+                 <div class="score">
+                     <div class="row">
+                         <div> 1</div>
+                         <div> 1 </div>
+                         <div> 0 </div>
+                     </div>
+                     <div class="row">
+                       <div> 1</div>
+                       <div> 0 </div>
+                       <div> 0 </div>
+                   </div>
+                   
+                 </div>
+             </div>
+             <div class="match_info">
+               <div class="star">
+                   <i class="far fa-star"></i>
+                 </div>
+                 <div class="duration">
+                   <span class="color_blue">34:55</span>
+                   <span class="color_green">1 Half</span>
+                 </div>
+                 <div class="match_status">
+                     <div>
+                         314
+                     </div>
+                        <div class="down">
+                           <i class="fas fa-chevron-down arrow_fs"></i> 
+                        </div>
+                 </div>
+             </div>
+
+           </div>
+           <div class="odd_col">
+               <div class="odd_col_1">
+                   <div >
+                      <p class="odd_value">  5.28</p>
+                   </div>
+                   <div >
+                       <p class="odd_value">  5.28</p>
+                  </div>
+                  <div >
+                   <p class="odd_value">  5.28</p>
+                  </div>
+              </div>
+              <div class="odd_col_2">
+                  <div>
+                   <p class="odd_value">  5.28</p>
+                  </div>
+                  <div >
+                   <p class="odd_value">  5.28</p>
+                 </div>
+                 <div>
+                   <p class="odd_value">  5.28</p>
+                 </div>
+              </div>
+           </div>
+         
+           </div>
+         </div>
+         <div class="table_title">
+            <div class="sport_logo">
+
+               <i class="fas fa-futbol"></i>
+
+            </div>
+            <div class="country_logo">
+               <img src="asset/img/flat_1.png" alt="">
+                 
+
+            </div>
+            <div class="league_name">
+                <a href="">
+                   England . FA Cup</a>
+                   <div>
+                       +
+                   </div>
+            </div>
+            <div class="bet_odds_title">
+                  <div>
+                      1
+                  </div>
+                  <div>
+                      X
+                  </div>
+                  <div>
+                   2
+               </div>
+               <div>
+                   1X
+               </div>
+               <div>
+                   12
+               </div>
+               <div>
+                   2X
+               </div>
+            </div>
+        </div>
+         <div class="table_body">
+           <div class="table_content">
+               <div class="display_flex">
+
+                  
+             <div class="icon">
+               <i class="fas fa-thumbtack"></i>
+             </div>
+             <div class="team_name">
+               <a href=""> 
+                   <p class="mb_3">Sevilla</p>
+                   <p>Getafe</p>
+               </a>
+             </div>
+             <div class="score">
+                 <div class="row">
+                     <div> 1</div>
+                     <div> 1 </div>
+                     <div> 0 </div>
+                 </div>
+                 <div class="row">
+                   <div> 1</div>
+                   <div> 0 </div>
+                   <div> 0 </div>
+               </div>
+                   
+             </div>
+         </div>
+         <div class="match_info">
+           <div class="star">
+               <i class="far fa-star"></i>
+             </div>
+             <div class="duration">
+               <span class="color_blue">34:55</span>
+               <span class="color_green">1 Half</span>
+             </div>
+             <div class="match_status">
+                 <div>
+                     314
+                 </div>
+                    <div class="down">
+                       <i class="fas fa-chevron-down arrow_fs"></i> 
+                    </div>
+             </div>
+         </div>
+
+       </div>
+       <div class="odd_col">
+           <div class="odd_col_1">
+               <div >
+                  <p class="odd_value">  5.28</p>
+               </div>
+               <div >
+                   <p class="odd_value">  5.28</p>
+              </div>
+              <div >
+               <p class="odd_value">  5.28</p>
+              </div>
+          </div>
+          <div class="odd_col_2">
+              <div>
+               <p class="odd_value">  5.28</p>
+              </div>
+              <div >
+               <p class="odd_value">  5.28</p>
+             </div>
+             <div>
+               <p class="odd_value">  5.28</p>
+             </div>
+          </div>
+       </div>
+         
+       </div>
+       <div class="table_body">
+           <div class="table_content">
+               <div class="display_flex">
+
+                  
+             <div class="icon">
+               <i class="fas fa-thumbtack"></i>
+             </div>
+             <div class="team_name">
+               <a href=""> 
+                   <p class="mb_3">Sevilla</p>
+                   <p>Getafe</p>
+               </a>
+             </div>
+             <div class="score">
+                 <div class="row">
+                     <div> 1</div>
+                     <div> 1 </div>
+                     <div> 0 </div>
+                 </div>
+                 <div class="row">
+                   <div> 1</div>
+                   <div> 0 </div>
+                   <div> 0 </div>
+               </div>
+                   
+             </div>
+         </div>
+         <div class="match_info">
+           <div class="star">
+               <i class="far fa-star"></i>
+             </div>
+             <div class="duration">
+               <span class="color_blue">34:55</span>
+               <span class="color_green">1 Half</span>
+             </div>
+             <div class="match_status">
+                 <div>
+                     314
+                 </div>
+                    <div class="down">
+                       <i class="fas fa-chevron-down arrow_fs"></i> 
+                    </div>
+             </div>
+         </div>
+
+       </div>
+       <div class="odd_col">
+           <div class="odd_col_1">
+               <div >
+                  <p class="odd_value">  5.28</p>
+               </div>
+               <div >
+                   <p class="odd_value">  5.28</p>
+              </div>
+              <div >
+               <p class="odd_value">  5.28</p>
+              </div>
+          </div>
+          <div class="odd_col_2">
+              <div>
+               <p class="odd_value">  5.28</p>
+              </div>
+              <div >
+               <p class="odd_value">  5.28</p>
+             </div>
+             <div>
+               <p class="odd_value">  5.28</p>
+             </div>
+          </div>
+       </div>
+         
+       </div>
+       </div>
+<div class="mb_10" >
+       <div class="live_header">
+        <p class="live_title">
+            LIVE BETS
+        </p>
+        <div class="live_search ">
+            <form action="">
+                <input type="text" placeholder="Search">
+                <i class="fas fa-search"></i>
+            </form>
+        </div>
+     </div>
+     <div class="betting_nav ">
+        <a href="" class="live_tv ">
+        
+            <i class="fas fa-desktop"></i>
+       
+        </a>
+        <a href="" class="betting_nav_item betting_active">
+       
+            <i class="fas fa-border-all"></i>
+            <span> All </span>
+        </a>
+        <a href="" class="betting_nav_item">
+       
+            <i class="fas fa-futbol"></i>
+            <span>Football</span>
+            <ul class="betting_dropdown_item">
+                <li> <div class="d_flex"><img src="asset/img/flat_1.png" "  alt=""> <p>Spain.Laliga</p></div>   <div class="d_count"> 1  <i class="fas fa-chevron-right "></i></div>
+                <li> <div class="d_flex"><img src="asset/img/flat_1.png"  alt=""> <p>Spain.Laliga</p></div>   <div class="d_count"> 1  <i class="fas fa-chevron-right "></i></div>
+                <li> <div class="d_flex"><img src="asset/img/flat_1.png"  alt=""> <p>Spain.Laliga</p></div>   <div class="d_count"> 1  <i class="fas fa-chevron-right "></i></div>
+                <li> <div class="d_flex"><img src="asset/img/flat_1.png"  alt=""> <p>Spain.Laliga</p></div>   <div class="d_count"> 1  <i class="fas fa-chevron-right "></i></div>
+                <li> <div class="d_flex"><img src="asset/img/flat_1.png"  alt=""> <p>Spain.Laliga</p></div>   <div class="d_count"> 1  <i class="fas fa-chevron-right "></i></div>
+                <li> <div class="d_flex"><img src="asset/img/flat_1.png"  alt=""> <p>Spain.Laliga</p></div>   <div class="d_count"> 1  <i class="fas fa-chevron-right "></i></div>
+          
+            </ul>
+        </a>
+        <a href="" class="betting_nav_item">
+            <i class="fas fa-baseball-ball"></i>
+            <span> Tennis</span>
+            <ul class="betting_dropdown_item">
+                <li> <div class="d_flex"><img src="asset/img/flat_1.png" "  alt=""> <p>Spain.Laliga</p></div>   <div class="d_count"> 1  <i class="fas fa-chevron-right "></i></div>
+                <li> <div class="d_flex"><img src="asset/img/flat_1.png"  alt=""> <p>Spain.Laliga</p></div>   <div class="d_count"> 1  <i class="fas fa-chevron-right "></i></div>
+                <li> <div class="d_flex"><img src="asset/img/flat_1.png"  alt=""> <p>Spain.Laliga</p></div>   <div class="d_count"> 1  <i class="fas fa-chevron-right "></i></div>
+                <li> <div class="d_flex"><img src="asset/img/flat_1.png"  alt=""> <p>Spain.Laliga</p></div>   <div class="d_count"> 1  <i class="fas fa-chevron-right "></i></div>
+                <li> <div class="d_flex"><img src="asset/img/flat_1.png"  alt=""> <p>Spain.Laliga</p></div>   <div class="d_count"> 1  <i class="fas fa-chevron-right "></i></div>
+                <li> <div class="d_flex"><img src="asset/img/flat_1.png"  alt=""> <p>Spain.Laliga</p></div>   <div class="d_count"> 1  <i class="fas fa-chevron-right "></i></div>
+          
+            </ul>
+       
+        </a>
+        <a href="" class="betting_nav_item">
+            <i class="fas fa-basketball-ball"></i>
+            <span> Basketball </span>
+            <ul class="betting_dropdown_item">
+                <li> <div class="d_flex"><img src="asset/img/flat_1.png" "  alt=""> <p>Spain.Laliga</p></div>   <div class="d_count"> 1  <i class="fas fa-chevron-right "></i></div>
+                <li> <div class="d_flex"><img src="asset/img/flat_1.png"  alt=""> <p>Spain.Laliga</p></div>   <div class="d_count"> 1  <i class="fas fa-chevron-right "></i></div>
+                <li> <div class="d_flex"><img src="asset/img/flat_1.png"  alt=""> <p>Spain.Laliga</p></div>   <div class="d_count"> 1  <i class="fas fa-chevron-right "></i></div>
+                <li> <div class="d_flex"><img src="asset/img/flat_1.png"  alt=""> <p>Spain.Laliga</p></div>   <div class="d_count"> 1  <i class="fas fa-chevron-right "></i></div>
+                <li> <div class="d_flex"><img src="asset/img/flat_1.png"  alt=""> <p>Spain.Laliga</p></div>   <div class="d_count"> 1  <i class="fas fa-chevron-right "></i></div>
+                <li> <div class="d_flex"><img src="asset/img/flat_1.png"  alt=""> <p>Spain.Laliga</p></div>   <div class="d_count"> 1  <i class="fas fa-chevron-right "></i></div>
+          
+            </ul>
+        </a>
+        <a href="" class="betting_nav_item">
+            <i class="far fa-futbol"></i>
+            <span>Ice Hockey</span>
+            <ul class="betting_dropdown_item">
+                <li> <div class="d_flex"><img src="asset/img/flat_1.png" "  alt=""> <p>Spain.Laliga</p></div>   <div class="d_count"> 1  <i class="fas fa-chevron-right "></i></div>
+                <li> <div class="d_flex"><img src="asset/img/flat_1.png"  alt=""> <p>Spain.Laliga</p></div>   <div class="d_count"> 1  <i class="fas fa-chevron-right "></i></div>
+                <li> <div class="d_flex"><img src="asset/img/flat_1.png"  alt=""> <p>Spain.Laliga</p></div>   <div class="d_count"> 1  <i class="fas fa-chevron-right "></i></div>
+                <li> <div class="d_flex"><img src="asset/img/flat_1.png"  alt=""> <p>Spain.Laliga</p></div>   <div class="d_count"> 1  <i class="fas fa-chevron-right "></i></div>
+                <li> <div class="d_flex"><img src="asset/img/flat_1.png"  alt=""> <p>Spain.Laliga</p></div>   <div class="d_count"> 1  <i class="fas fa-chevron-right "></i></div>
+                <li> <div class="d_flex"><img src="asset/img/flat_1.png"  alt=""> <p>Spain.Laliga</p></div>   <div class="d_count"> 1  <i class="fas fa-chevron-right "></i></div>
+          
+            </ul>
+
+        </a>
+       <a href="" class="betting_nav_item">
+        <i class="fas fa-volleyball-ball"></i>
+        <span>Volleryball</span>
+        <ul class="betting_dropdown_item">
+            <li> <div class="d_flex"><img src="asset/img/flat_1.png" "  alt=""> <p>Spain.Laliga</p></div>   <div class="d_count"> 1  <i class="fas fa-chevron-right "></i></div>
+            <li> <div class="d_flex"><img src="asset/img/flat_1.png"  alt=""> <p>Spain.Laliga</p></div>   <div class="d_count"> 1  <i class="fas fa-chevron-right "></i></div>
+            <li> <div class="d_flex"><img src="asset/img/flat_1.png"  alt=""> <p>Spain.Laliga</p></div>   <div class="d_count"> 1  <i class="fas fa-chevron-right "></i></div>
+            <li> <div class="d_flex"><img src="asset/img/flat_1.png"  alt=""> <p>Spain.Laliga</p></div>   <div class="d_count"> 1  <i class="fas fa-chevron-right "></i></div>
+            <li> <div class="d_flex"><img src="asset/img/flat_1.png"  alt=""> <p>Spain.Laliga</p></div>   <div class="d_count"> 1  <i class="fas fa-chevron-right "></i></div>
+            <li> <div class="d_flex"><img src="asset/img/flat_1.png"  alt=""> <p>Spain.Laliga</p></div>   <div class="d_count"> 1  <i class="fas fa-chevron-right "></i></div>
+          
+        </ul>
+       </a>
+       <a href="" class="betting_nav_item">
+        <i class="fas fa-table-tennis"></i>
+        <span>
+            table-tenis
+        </span>
+        <ul class="betting_dropdown_item">
+            <li> <div class="d_flex"><img src="asset/img/flat_1.png" "  alt=""> <p>Spain.Laliga</p></div>   <div class="d_count"> 1  <i class="fas fa-chevron-right "></i></div>
+            <li> <div class="d_flex"><img src="asset/img/flat_1.png"  alt=""> <p>Spain.Laliga</p></div>   <div class="d_count"> 1  <i class="fas fa-chevron-right "></i></div>
+            <li> <div class="d_flex"><img src="asset/img/flat_1.png"  alt=""> <p>Spain.Laliga</p></div>   <div class="d_count"> 1  <i class="fas fa-chevron-right "></i></div>
+            <li> <div class="d_flex"><img src="asset/img/flat_1.png"  alt=""> <p>Spain.Laliga</p></div>   <div class="d_count"> 1  <i class="fas fa-chevron-right "></i></div>
+            <li> <div class="d_flex"><img src="asset/img/flat_1.png"  alt=""> <p>Spain.Laliga</p></div>   <div class="d_count"> 1  <i class="fas fa-chevron-right "></i></div>
+            <li> <div class="d_flex"><img src="asset/img/flat_1.png"  alt=""> <p>Spain.Laliga</p></div>   <div class="d_count"> 1  <i class="fas fa-chevron-right "></i></div>
+          
+        </ul>
+       </a>
+      <a href=""  class="betting_nav_item">
+        <i class="far fa-futbol"></i>
+        <span>
+            Handball
+        </span>
+        <ul class="betting_dropdown_item">
+            <li> <div class="d_flex"><img src="asset/img/flat_1.png" "  alt=""> <p>Spain.Laliga</p></div>   <div class="d_count"> 1  <i class="fas fa-chevron-right "></i></div>
+            <li> <div class="d_flex"><img src="asset/img/flat_1.png"  alt=""> <p>Spain.Laliga</p></div>   <div class="d_count"> 1  <i class="fas fa-chevron-right "></i></div>
+            <li> <div class="d_flex"><img src="asset/img/flat_1.png"  alt=""> <p>Spain.Laliga</p></div>   <div class="d_count"> 1  <i class="fas fa-chevron-right "></i></div>
+            <li> <div class="d_flex"><img src="asset/img/flat_1.png"  alt=""> <p>Spain.Laliga</p></div>   <div class="d_count"> 1  <i class="fas fa-chevron-right "></i></div>
+            <li> <div class="d_flex"><img src="asset/img/flat_1.png"  alt=""> <p>Spain.Laliga</p></div>   <div class="d_count"> 1  <i class="fas fa-chevron-right "></i></div>
+            <li> <div class="d_flex"><img src="asset/img/flat_1.png"  alt=""> <p>Spain.Laliga</p></div>   <div class="d_count"> 1  <i class="fas fa-chevron-right "></i></div>
+          
+        </ul>
+      </a>
+       <a href="" class="betting_nav_item">
+        <i class="far fa-futbol"></i>
+        <span>
+        Cricket
+        </span>
+        <ul class="betting_dropdown_item">
+            <li> <div class="d_flex"><img src="asset/img/flat_1.png" "  alt=""> <p>Spain.Laliga</p></div>   <div class="d_count"> 1  <i class="fas fa-chevron-right "></i></div>
+            <li> <div class="d_flex"><img src="asset/img/flat_1.png"  alt=""> <p>Spain.Laliga</p></div>   <div class="d_count"> 1  <i class="fas fa-chevron-right "></i></div>
+            <li> <div class="d_flex"><img src="asset/img/flat_1.png"  alt=""> <p>Spain.Laliga</p></div>   <div class="d_count"> 1  <i class="fas fa-chevron-right "></i></div>
+            <li> <div class="d_flex"><img src="asset/img/flat_1.png"  alt=""> <p>Spain.Laliga</p></div>   <div class="d_count"> 1  <i class="fas fa-chevron-right "></i></div>
+            <li> <div class="d_flex"><img src="asset/img/flat_1.png"  alt=""> <p>Spain.Laliga</p></div>   <div class="d_count"> 1  <i class="fas fa-chevron-right "></i></div>
+            <li> <div class="d_flex"><img src="asset/img/flat_1.png"  alt=""> <p>Spain.Laliga</p></div>   <div class="d_count"> 1  <i class="fas fa-chevron-right "></i></div>
+          
+        </ul>
+       </a>
+ 
+       <a  href="" class="betting_nav_item">
+        <i class="fas fa-bars"></i>
+     <i class="fas fa-chevron-down arrow_fs"></i> 
+     <ul class="betting_dropdown_item dropdown_right">
+        <li> <div class="d_flex"><img src="asset/img/flat_1.png" "  alt=""> <p>Spain.Laliga</p></div>   <div class="d_count"> 1  <i class="fas fa-chevron-right "></i></div>
+        <li> <div class="d_flex"><img src="asset/img/flat_1.png"  alt=""> <p>Spain.Laliga</p></div>   <div class="d_count"> 1  <i class="fas fa-chevron-right "></i></div>
+        <li> <div class="d_flex"><img src="asset/img/flat_1.png"  alt=""> <p>Spain.Laliga</p></div>   <div class="d_count"> 1  <i class="fas fa-chevron-right "></i></div>
+        <li> <div class="d_flex"><img src="asset/img/flat_1.png"  alt=""> <p>Spain.Laliga</p></div>   <div class="d_count"> 1  <i class="fas fa-chevron-right "></i></div>
+        <li> <div class="d_flex"><img src="asset/img/flat_1.png"  alt=""> <p>Spain.Laliga</p></div>   <div class="d_count"> 1  <i class="fas fa-chevron-right "></i></div>
+        <li> <div class="d_flex"><img src="asset/img/flat_1.png"  alt=""> <p>Spain.Laliga</p></div>   <div class="d_count"> 1  <i class="fas fa-chevron-right "></i></div>
+      
+    </ul>
+       </a >
+       <a href=""  class="betting_nav_item">
+        <i class="fas fa-gamepad"></i>
+     <i class="fas fa-chevron-down arrow_fs"></i> 
+     <ul class="betting_dropdown_item dropdown_right">
+        <li> <div class="d_flex"><img src="asset/img/flat_1.png" "  alt=""> <p>Spain.Laliga</p></div>   <div class="d_count"> 1  <i class="fas fa-chevron-right "></i></div>
+        <li> <div class="d_flex"><img src="asset/img/flat_1.png"  alt=""> <p>Spain.Laliga</p></div>   <div class="d_count"> 1  <i class="fas fa-chevron-right "></i></div>
+        <li> <div class="d_flex"><img src="asset/img/flat_1.png"  alt=""> <p>Spain.Laliga</p></div>   <div class="d_count"> 1  <i class="fas fa-chevron-right "></i></div>
+        <li> <div class="d_flex"><img src="asset/img/flat_1.png"  alt=""> <p>Spain.Laliga</p></div>   <div class="d_count"> 1  <i class="fas fa-chevron-right "></i></div>
+        <li> <div class="d_flex"><img src="asset/img/flat_1.png"  alt=""> <p>Spain.Laliga</p></div>   <div class="d_count"> 1  <i class="fas fa-chevron-right "></i></div>
+        <li> <div class="d_flex"><img src="asset/img/flat_1.png"  alt=""> <p>Spain.Laliga</p></div>   <div class="d_count"> 1  <i class="fas fa-chevron-right "></i></div>
+      
+    </ul>
+       </a >
+     </div>
+     <div class="betting_table">
+         <div class="table_title">
+             <div class="sport_logo">
+
+                <i class="fas fa-futbol"></i>
+
+             </div>
+             <div class="country_logo">
+                <img src="asset/img/flat_1.png" alt="">
+          
+
+             </div>
+             <div class="league_name">
+                 <a href="">
+                    England . FA Cup</a>
+                    <div>
+                        +
+                    </div>
+             </div>
+             <div class="bet_odds_title">
+                   <div>
+                       1
+                   </div>
+                   <div>
+                       X
+                   </div>
+                   <div>
+                    2
+                </div>
+                <div>
+                    1X
+                </div>
+                <div>
+                    12
+                </div>
+                <div>
+                    2X
+                </div>
+             </div>
+         </div>
+          <div class="table_body">
+            <div class="table_content">
+                <div class="display_flex">
+
+           
+              <div class="icon">
+                <i class="fas fa-thumbtack"></i>
+              </div>
+              <div class="team_name">
+                <a href=""> 
+                    <p class="mb_3">Sevilla</p>
+                    <p>Getafe</p>
+                </a>
+              </div>
+              <div class="score">
+                  <div class="row">
+                      <div> 1</div>
+                      <div> 1 </div>
+                      <div> 0 </div>
+                  </div>
+                  <div class="row">
+                    <div> 1</div>
+                    <div> 0 </div>
+                    <div> 0 </div>
+                </div>
+            
+              </div>
+          </div>
+          <div class="match_info">
+            <div class="star">
+                <i class="far fa-star"></i>
+              </div>
+              <div class="duration">
+                <span class="color_blue">34:55</span>
+                <span class="color_green">1 Half</span>
+              </div>
+              <div class="match_status">
+                  <div>
+                      314
+                  </div>
+                     <div class="down">
+                        <i class="fas fa-chevron-down arrow_fs"></i> 
+                     </div>
+              </div>
+          </div>
+
+        </div>
+        <div class="odd_col">
+            <div class="odd_col_1">
+                <div >
+                   <p class="odd_value">  5.28</p>
+                </div>
+                <div >
+                    <p class="odd_value">  5.28</p>
+               </div>
+               <div >
+                <p class="odd_value">  5.28</p>
+               </div>
+           </div>
+           <div class="odd_col_2">
+               <div>
+                <p class="odd_value">  5.28</p>
+               </div>
+               <div >
+                <p class="odd_value">  5.28</p>
+              </div>
+              <div>
+                <p class="odd_value">  5.28</p>
+              </div>
+           </div>
+        </div>
+  
+        </div>
+        <div class="table_body">
+            <div class="table_content">
+                <div class="display_flex">
+
+           
+              <div class="icon">
+                <i class="fas fa-thumbtack"></i>
+              </div>
+              <div class="team_name">
+                <a href=""> 
+                    <p class="mb_3">Sevilla</p>
+                    <p>Getafe</p>
+                </a>
+              </div>
+              <div class="score">
+                  <div class="row">
+                      <div> 1</div>
+                      <div> 1 </div>
+                      <div> 0 </div>
+                  </div>
+                  <div class="row">
+                    <div> 1</div>
+                    <div> 0 </div>
+                    <div> 0 </div>
+                </div>
+            
+              </div>
+          </div>
+          <div class="match_info">
+            <div class="star">
+                <i class="far fa-star"></i>
+              </div>
+              <div class="duration">
+                <span class="color_blue">34:55</span>
+                <span class="color_green">1 Half</span>
+              </div>
+              <div class="match_status">
+                  <div>
+                      314
+                  </div>
+                     <div class="down">
+                        <i class="fas fa-chevron-down arrow_fs"></i> 
+                     </div>
+              </div>
+          </div>
+
+        </div>
+        <div class="odd_col">
+            <div class="odd_col_1">
+                <div >
+                   <p class="odd_value">  5.28</p>
+                </div>
+                <div >
+                    <p class="odd_value">  5.28</p>
+               </div>
+               <div >
+                <p class="odd_value">  5.28</p>
+               </div>
+           </div>
+           <div class="odd_col_2">
+               <div>
+                <p class="odd_value">  5.28</p>
+               </div>
+               <div >
+                <p class="odd_value">  5.28</p>
+              </div>
+              <div>
+                <p class="odd_value">  5.28</p>
+              </div>
+           </div>
+        </div>
+  
+        </div>
+        <div class="table_title">
+            <div class="sport_logo">
+
+               <i class="fas fa-futbol"></i>
+
+            </div>
+            <div class="country_logo">
+               <img src="asset/img/flat_1.png" alt="">
+         
+
+            </div>
+            <div class="league_name">
+                <a href="">
+                   England . FA Cup</a>
+                   <div>
+                       +
+                   </div>
+            </div>
+            <div class="bet_odds_title">
+                  <div>
+                      1
+                  </div>
+                  <div>
+                      X
+                  </div>
+                  <div>
+                   2
+               </div>
+               <div>
+                   1X
+               </div>
+               <div>
+                   12
+               </div>
+               <div>
+                   2X
+               </div>
+            </div>
+        </div>
+         <div class="table_body">
+           <div class="table_content">
+               <div class="display_flex">
+
+          
+             <div class="icon">
+               <i class="fas fa-thumbtack"></i>
+             </div>
+             <div class="team_name">
+               <a href=""> 
+                   <p class="mb_3">Sevilla</p>
+                   <p>Getafe</p>
+               </a>
+             </div>
+             <div class="score">
+                 <div class="row">
+                     <div> 1</div>
+                     <div> 1 </div>
+                     <div> 0 </div>
+                 </div>
+                 <div class="row">
+                   <div> 1</div>
+                   <div> 0 </div>
+                   <div> 0 </div>
+               </div>
+           
+             </div>
+         </div>
+         <div class="match_info">
+           <div class="star">
+               <i class="far fa-star"></i>
+             </div>
+             <div class="duration">
+               <span class="color_blue">34:55</span>
+               <span class="color_green">1 Half</span>
+             </div>
+             <div class="match_status">
+                 <div>
+                     314
+                 </div>
+                    <div class="down">
+                       <i class="fas fa-chevron-down arrow_fs"></i> 
+                    </div>
+             </div>
+         </div>
+
+       </div>
+       <div class="odd_col">
+           <div class="odd_col_1">
+               <div >
+                  <p class="odd_value">  5.28</p>
+               </div>
+               <div >
+                   <p class="odd_value">  5.28</p>
+              </div>
+              <div >
+               <p class="odd_value">  5.28</p>
+              </div>
+          </div>
+          <div class="odd_col_2">
+              <div>
+               <p class="odd_value">  5.28</p>
+              </div>
+              <div >
+               <p class="odd_value">  5.28</p>
+             </div>
+             <div>
+               <p class="odd_value">  5.28</p>
+             </div>
+          </div>
+       </div>
+ 
+       </div>
+       <div class="table_body">
+           <div class="table_content">
+               <div class="display_flex">
+
+          
+             <div class="icon">
+               <i class="fas fa-thumbtack"></i>
+             </div>
+             <div class="team_name">
+               <a href=""> 
+                   <p class="mb_3">Sevilla</p>
+                   <p>Getafe</p>
+               </a>
+             </div>
+             <div class="score">
+                 <div class="row">
+                     <div> 1</div>
+                     <div> 1 </div>
+                     <div> 0 </div>
+                 </div>
+                 <div class="row">
+                   <div> 1</div>
+                   <div> 0 </div>
+                   <div> 0 </div>
+               </div>
+           
+             </div>
+         </div>
+         <div class="match_info">
+           <div class="star">
+               <i class="far fa-star"></i>
+             </div>
+             <div class="duration">
+               <span class="color_blue">34:55</span>
+               <span class="color_green">1 Half</span>
+             </div>
+             <div class="match_status">
+                 <div>
+                     314
+                 </div>
+                    <div class="down">
+                       <i class="fas fa-chevron-down arrow_fs"></i> 
+                    </div>
+             </div>
+         </div>
+
+       </div>
+       <div class="odd_col">
+           <div class="odd_col_1">
+               <div >
+                  <p class="odd_value">  5.28</p>
+               </div>
+               <div >
+                   <p class="odd_value">  5.28</p>
+              </div>
+              <div >
+               <p class="odd_value">  5.28</p>
+              </div>
+          </div>
+          <div class="odd_col_2">
+              <div>
+               <p class="odd_value">  5.28</p>
+              </div>
+              <div >
+               <p class="odd_value">  5.28</p>
+             </div>
+             <div>
+               <p class="odd_value">  5.28</p>
+             </div>
+          </div>
+       </div>
+ 
+       </div>
+     </div>
+     <div class="table_title">
+        <div class="sport_logo">
+
+           <i class="fas fa-futbol"></i>
+
+        </div>
+        <div class="country_logo">
+           <img src="asset/img/flat_1.png" alt="">
+         
+
+        </div>
+        <div class="league_name">
+            <a href="">
+               England . FA Cup</a>
+               <div>
+                   +
+               </div>
+        </div>
+        <div class="bet_odds_title">
+              <div>
+                  1
+              </div>
+              <div>
+                  X
+              </div>
+              <div>
+               2
+           </div>
+           <div>
+               1X
+           </div>
+           <div>
+               12
+           </div>
+           <div>
+               2X
+           </div>
+        </div>
+    </div>
+     <div class="table_body">
+       <div class="table_content">
+           <div class="display_flex">
+
+          
+         <div class="icon">
+           <i class="fas fa-thumbtack"></i>
+         </div>
+         <div class="team_name">
+           <a href=""> 
+               <p class="mb_3">Sevilla</p>
+               <p>Getafe</p>
+           </a>
+         </div>
+         <div class="score">
+             <div class="row">
+                 <div> 1</div>
+                 <div> 1 </div>
+                 <div> 0 </div>
+             </div>
+             <div class="row">
+               <div> 1</div>
+               <div> 0 </div>
+               <div> 0 </div>
+           </div>
+           
+         </div>
+     </div>
+     <div class="match_info">
+       <div class="star">
+           <i class="far fa-star"></i>
+         </div>
+         <div class="duration">
+           <span class="color_blue">34:55</span>
+           <span class="color_green">1 Half</span>
+         </div>
+         <div class="match_status">
+             <div>
+                 314
+             </div>
+                <div class="down">
+                   <i class="fas fa-chevron-down arrow_fs"></i> 
+                </div>
+         </div>
+     </div>
+
+   </div>
+   <div class="odd_col">
+       <div class="odd_col_1">
+           <div >
+              <p class="odd_value">  5.28</p>
+           </div>
+           <div >
+               <p class="odd_value">  5.28</p>
+          </div>
+          <div >
+           <p class="odd_value">  5.28</p>
+          </div>
+      </div>
+      <div class="odd_col_2">
+          <div>
+           <p class="odd_value">  5.28</p>
+          </div>
+          <div >
+           <p class="odd_value">  5.28</p>
+         </div>
+         <div>
+           <p class="odd_value">  5.28</p>
+         </div>
+      </div>
+   </div>
+ 
+   </div>
+   <div class="table_body">
+       <div class="table_content">
+           <div class="display_flex">
+
+          
+         <div class="icon">
+           <i class="fas fa-thumbtack"></i>
+         </div>
+         <div class="team_name">
+           <a href=""> 
+               <p class="mb_3">Sevilla</p>
+               <p>Getafe</p>
+           </a>
+         </div>
+         <div class="score">
+             <div class="row">
+                 <div> 1</div>
+                 <div> 1 </div>
+                 <div> 0 </div>
+             </div>
+             <div class="row">
+               <div> 1</div>
+               <div> 0 </div>
+               <div> 0 </div>
+           </div>
+           
+         </div>
+     </div>
+     <div class="match_info">
+       <div class="star">
+           <i class="far fa-star"></i>
+         </div>
+         <div class="duration">
+           <span class="color_blue">34:55</span>
+           <span class="color_green">1 Half</span>
+         </div>
+         <div class="match_status">
+             <div>
+                 314
+             </div>
+                <div class="down">
+                   <i class="fas fa-chevron-down arrow_fs"></i> 
+                </div>
+         </div>
+     </div>
+
+   </div>
+   <div class="odd_col">
+       <div class="odd_col_1">
+           <div >
+              <p class="odd_value">  5.28</p>
+           </div>
+           <div >
+               <p class="odd_value">  5.28</p>
+          </div>
+          <div >
+           <p class="odd_value">  5.28</p>
+          </div>
+      </div>
+      <div class="odd_col_2">
+          <div>
+           <p class="odd_value">  5.28</p>
+          </div>
+          <div >
+           <p class="odd_value">  5.28</p>
+         </div>
+         <div>
+           <p class="odd_value">  5.28</p>
+         </div>
+      </div>
+   </div>
+ 
+   </div>
+</div>
+       </div>
+        <div class="right_sidebar">
+           <div class="collapse_div">
+            <i class="fas fa-chevron-right"></i> <span>Collapse block</span>      
+           </div>
+
+      
+<div class="bet_slip">
+    <div class="bet_slip_header ">
+        <div class="bet_slip_title">
+            BET SLIP
+        </div>
+        <div class="my_bet  bet_slip_active">
+            MY BETS
+        </div>
+    </div>
+    <div class="slip_code">
+        Add events to the bet slip or enter a code to load events
+    </div>
+    <div class="register_btn ">
+        REGISTRATION
+    </div>
+    <p class="deposite">
+        100% bonus on first deposit
+    </p>
+    <div class="save_bet_slip">  <p> Save/load bet slip</p>  <div><i class="fas fa-chevron-down "></i></div> </div>
+  
+</div>
+<div class="social_icon">
+    <div class="mr_10">
+        <i class="fab fa-facebook-f"></i>
+    </div>
+    <div class="">
+        <i class="fab fa-twitter"></i>
+    </div>
+     <div class="ml_10">
+        <i class="fab fa-instagram"></i>
+     </div>
+  
+</div>
+<div class="schedule">
+<div class="schedule_title">
+   <p class="p_text">ACCUMULATOR OF THE DAY №1</p> 
+    <div class="clender"><i class="fas fa-sort-up rotate_left"></i>  <i class="fas fa-calendar-alt"></i>  <i class="fas fa-sort-up rotate_right"></i>  </div>
+</div>
+<div class="schedule_body">
+    <div class="today_match">
+    <div class="match_detail">
+        <div class="football_icon">
+            <i class="fas fa-futbol"></i>
+        </div>
+        <div>
+            <p class="fs_3">10.01
+                23:00</p>
+            <p class="fs_3">    21060 | Spain. La Liga</p>
+            <a href="" class="team_link">Espanyol
+                <br>
+                Elche
+              </a>
+            
+        </div>
+    </div>
+    <div class="match_footer">
+       <p>Team 1 To Score Next Goal (2)</p> 
+       <p class="match_footer_odd">1.5</p>
+    </div>
+    </div>
+    <div class="today_match">
+        <div class="match_detail">
+            <div class="football_icon">
+                <i class="fas fa-futbol"></i>
+            </div>
+            <div>
+                <p class="fs_3">10.01
+                    23:00</p>
+                <p class="fs_3">    21060 | Spain. La Liga</p>
+                <a href="" class="team_link">Espanyol
+                    <br>
+                    Elche
+                  </a>
+            
+            </div>
+        </div>
+        <div class="match_footer">
+           <p>Team 1 To Score Next Goal (2)</p> 
+           <p class="match_footer_odd">1.5</p>
+        </div>
+        </div>
+      <div class="today_bonus">
+      <p>  1XBET BONUS</p>
+      <p class="fw_bold">  1.1 </p>
+       
+      </div>
+      <div class="overall_odds">
+        <p> OVERALL ODDS</p>
+        <p class="fw_bold"> 6.099 </p>
+     
+        </div>
+        <div class="add_betslip">
+            ADD TO BET SLIP
+        </div>
+    </div>
+</div>
+<div class="offer">
+    <div class="offer_header">
+      <p> Offers</p> 
+      <div><i class="fas fa-chevron-up"></i> </div>
+    </div>
+    <div class="football_banner">
+       <p class="text_center"> FOOTBALL. ENGLAND. PREMIER LEAGUE</p>
+       <div class="banner_body">
+          <div class="team_1">
+                <img src="https://v2l.cdnsfree.com/sfiles/logo_teams/2006.png" width="70" alt="">
+          </div>
+          <div class="match_date">
+              <p class="mt_3"> 11.01</p>
+              <p>  22:45</p>
+        
+          
+          </div>
+          <div class="team_2">
+<img src="https://v2l.cdnsfree.com/sfiles/logo_teams/2064.png" width="70" alt="">
+          </div>
+        
+       </div>
+       <div class="banner_teamname">
+             
+                <p>SOUTHAMPTON</p>
+                <div>  <i class="far fa-futbol"></i></div>
+                <p>BRENTFORD</p>
+             
+       </div>
+         <div class="banner_odd">
+            <div class="banner_odd_value">
+                3.42
+            </div>
+            
+                <a href="" class="place_bet" >
+                    place a bet
+              </a>
+            
+           
+            <div class="banner_odd_value">
+                2.44
+            </div>
+            
+         </div>
+    </div>
+    <div class="football_banner">
+        <p class="text_center"> FOOTBALL. ENGLAND. PREMIER LEAGUE</p>
+        <div class="banner_body">
+           <div class="team_1">
+                 <img src="https://v2l.cdnsfree.com/sfiles/logo_teams/2006.png" width="70" alt="">
+           </div>
+           <div class="match_date">
+               <p class="mt_3"> 11.01</p>
+               <p>  22:45</p>
+     
+       
+           </div>
+           <div class="team_2">
+ <img src="https://v2l.cdnsfree.com/sfiles/logo_teams/2064.png" width="70" alt="">
+           </div>
+     
+        </div>
+        <div class="banner_teamname">
+          
+                 <p>SOUTHAMPTON</p>
+                 <div>  <i class="far fa-futbol"></i></div>
+                 <p>BRENTFORD</p>
+          
+        </div>
+          <div class="banner_odd">
+             <div class="banner_odd_value">
+                 3.42
+             </div>
+         
+                 <a href="" class="place_bet" >
+                     place a bet
+               </a>
+         
+        
+             <div class="banner_odd_value">
+                 2.44
+             </div>
+         
+          </div>
+     </div>
+
+ </div>
+ <div class="football_banner">
+    <p class="text_center"> FOOTBALL. ENGLAND. PREMIER LEAGUE</p>
+    <div class="banner_body">
+       <div class="team_1">
+             <img src="https://v2l.cdnsfree.com/sfiles/logo_teams/2006.png" width="70" alt="">
+       </div>
+       <div class="match_date">
+           <p class="mt_3"> 11.01</p>
+           <p>  22:45</p>
+ 
+   
+       </div>
+       <div class="team_2">
+<img src="https://v2l.cdnsfree.com/sfiles/logo_teams/2064.png" width="70" alt="">
+       </div>
+ 
+    </div>
+    <div class="banner_teamname">
+      
+             <p>SOUTHAMPTON</p>
+             <div>  <i class="far fa-futbol"></i></div>
+             <p>BRENTFORD</p>
+      
+    </div>
+      <div class="banner_odd">
+         <div class="banner_odd_value">
+             3.42
+         </div>
+     
+             <a href="" class="place_bet" >
+                 place a bet
+           </a>
+     
+    
+         <div class="banner_odd_value">
+             2.44
+         </div>
+     
+      </div>
+ </div>
+
+</div>
+</div>
+<div class="footer_container">
+    <div class="footer">
+
+   
+<div class="footer_navbar">
+
+<div class="col">
+    <div class="col_title">
+        1XBET
+    </div>
+    <a>Casino</a>
+    <a> 1xGAMES</a>
+    <a> TV Games</a>
+    <a>Bingo</a>
+    <a>Bitcoin</a>
+    
+   
+   
+    
+    
+</div>
+<div class="col">
+    <div class="col_title">
+        BETTING
+    </div>
+    <a>Casino</a>
+    <a> 1xGAMES</a>
+    <a> TV Games</a>
+    <a>Bingo</a>
+    <a>Bitcoin</a>
+</div>
+<div class="col">
+    <div class="col_title">
+        GAMES
+    </div>
+    <a>Casino</a>
+    <a> 1xGAMES</a>
+    <a> TV Games</a>
+    <a>Bingo</a>
+    <a>Bitcoin</a>
+</div>
+<div class="col">
+    <div class="col_title">
+        STATISTICS
+    </div>
+    <a>Casino</a>
+    <a> 1xGAMES</a>
+    <a> TV Games</a>
+    <a>Bingo</a>
+    <a>Bitcoin</a>
+</div>
+<div class="col">
+    <div class="col_title">
+        USEFUL LINKS
+    </div>
+    <a>Casino</a>
+    <a> 1xGAMES</a>
+    <a> TV Games</a>
+    <a>Bingo</a>
+    <a>Bitcoin</a>
+</div>
+<div class="col">
+    <div class="col_title">
+        APPS
+    </div>
+    <a>Casino</a>
+    <a> 1xGAMES</a>
+    <a> TV Games</a>
+    <a>Bingo</a>
+    <a>Bitcoin</a>
+</div>
+
+</div>
+<div class="partner">
+
+    <div class="partner_type">
+        <p>Sports partners:</p>
+        <p>
+            Esports partners:</p>
+    </div>
+<div class="partner_logo">
+    
+    <div class="sport_partener" >
+    <a href="">
+        
+        <img class="e_logo" src="https://v2l.cdnsfree.com/default/img/partners/logo-serie_new.png" alt="">
+    </a>
+    <a href="">
+        <img class="e_logo" src="https://v2l.cdnsfree.com/genfiles/cms/1-285/desktop/footer/logos/logo-fcb.png" alt="">
+    </a>
+    <a href="">
+        <img class="e_logo" src="https://v2l.cdnsfree.com/genfiles/cms/1-285/desktop/footer/logos/logo-olympique-lyonnais-320.png" alt="">
+    </a>
+    <a href="">
+        <img class="e_logo" src="https://v2l.cdnsfree.com/genfiles/cms/1-285/desktop/footer/logos/logo-brasileirao-320.png" alt="">
+    </a>
+    
+    <a href="">
+        
+        <img class="e_logo" src="https://v2l.cdnsfree.com/genfiles/cms/1-285/desktop/footer/logos/can-2021-en.png" alt="">
+    </a>
+    
+</div>
+<div class="esport_partener">
+    <a href="">
+        <img class="e_textlogo" src="https://v2l.cdnsfree.com/genfiles/cms/1-285/desktop/footer/logos/weplay.png" alt="">
+    </a>
+    <a href="">
+        <img class="e_textlogo" src="https://v2l.cdnsfree.com/genfiles/cms/1-285/desktop/footer/logos/esl.png" alt="">
+    </a>
+    <a href="">
+        <img class="e_textlogo" src="https://v2l.cdnsfree.com/genfiles/cms/1-285/desktop/footer/logos/proleague2.png" alt="">
+    </a>
+    <a href="">
+        <img class="e_textlogo" src="https://v2l.cdnsfree.com/genfiles/cms/1-285/desktop/footer/logos/dreamhack.png" alt="">
+    </a>
+    <a href="">
+        <img class="e_textlogo" src="https://v2l.cdnsfree.com/genfiles/cms/1-285/desktop/footer/logos/dreamhack-masters.png" alt="">
+    </a>
+    <div>
+</div>
+</div>
+</div>
+</div>
+<div class="cookie">
+    1xBet uses cookies to enhance your website experience. By staying on the website, you agree to the use of these cookies. Find out more
+</div>
+<div class="contact_footer">
+    <div class="contact_us">
+        <div class="contact_icon">
+            <i class="fas fa-phone-alt"></i>
+        </div>
+        <div>
+            <p>
+                SUPPORT
+            </p>
+            <p class="phone_number">+44 127 325-69-87</p>
+        </div>
+        
+    </div>
+       <p class="rule">
+        1xbet.com is owned by PONP LTD (reg.number HE 398734) with a registered office located at 7-9 Riga Feraiou, LIZANTIA COURT, Office 310, Agioi Omologites, 1087, Nicosia, Cyprus as a Billing Agent and 1xbet.com is operated by 1xCorp N.V. as a License Holder (Curacao license No. 1668/JAZ) All rights reserved and protected by law.
+       </p>
+       <div class="contact_logo">
+           <p class="age_limit">
+               21+
+           </p>
+           <div>
+               <img src="https://v2l.cdnsfree.com/default/img/visa_mastercard.png"  alt="">
+           </div>
+       </div>
+</div>
+</div>
+    <script src="https://kit.fontawesome.com/503de85b9f.js" crossorigin="anonymous"></script>
+    <script src="asset/js/slider.js"></script>
+</body>
+</html>
