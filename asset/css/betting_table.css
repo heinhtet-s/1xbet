@@ -27,6 +27,7 @@ padding: 0px 10px;
              color: var(--main-color);
             
          }
+         
          .live_search input{
              outline: none;
              padding: 3px 3px 3px 30px;
@@ -349,9 +350,10 @@ height: 77px;
 .odd_col_1 div{
     flex: 1 1 auto; 
     font-size: 0.8rem;
-  
+  cursor: pointer;
    
 }
+
 .odd_col_2 div{
     flex: 1 1 auto; 
     text-align: center;
@@ -365,6 +367,11 @@ height: 77px;
     background-color: #EEF4F8;
     border-radius: 5px;
    
+}
+.odd_value:hover{
+    background-color: var(--main-color);
+    color: white;
+    cursor: pointer;
 }
 @media screen and (max-width: 1310px) {
     .live_bet{

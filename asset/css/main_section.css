@@ -4,7 +4,7 @@
    background-color: #31014b;
    padding: 10px;
    justify-content: space-between;
-   
+   margin-top: 96px;
  
 }
 .register{
@@ -153,6 +153,7 @@ margin-top: 5px;
      width: 992px;
      height: 768px;
    }
+
 /* 
    .prev,
    .next {
@@ -175,6 +176,7 @@ margin-top: 5px;
    .next:active {
      color: #888;
    } */
+   
    .indicator{
        display: flex;
         position: absolute;

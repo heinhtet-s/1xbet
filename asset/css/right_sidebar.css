@@ -317,7 +317,7 @@ border: 0.5px solid rgba(255, 255, 255, 0.452);
     text-align: center;
 }
 .place_bet{
-   width: 90px;
+   width: 100px;
     position: relative;
     z-index: 0;
     display: block;

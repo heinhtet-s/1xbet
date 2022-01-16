@@ -1,9 +1,19 @@
-
-        .header_info{
+  .header{
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: 100;
+      width: 100%;
+      background-color: white;
+  }
+  .header_info{
             display: flex;
             justify-content: space-between;
             height: 40px;
+         
+
         }
+
   .left_header_info{
       display: flex;
       font-size: 18px;
@@ -55,6 +65,51 @@ font-weight: bold;
           line-height: 10px;
           font-size: 10px;
       }
+      .nav_des{
+        position: absolute;
+        background-color: var(--main-color);
+        width: 200px;
+        color: white;
+        font-size: 0.8rem;
+        top: 20px;
+        border: 1px solid white;
+        top: 50px;
+        left: 50%;
+        padding: 10px;
+        z-index: 3;
+        display: none;
+        }
+    
+        .nav_des::after {
+        position: absolute;
+                left: 10%;
+                top: -9px;
+                width: 0;
+                height: 0;
+                content: '';
+           
+                border-right: 10px solid transparent;
+                border-bottom: 10px solid var(--main-color);
+                transform: translateX(-50%);
+            
+            }
+            .nav_des::before{
+                position: absolute;
+                left: 10%;
+                top: -12px;
+                width: 0;
+                height: 0;
+                content: '';
+           
+                border-right: 12px solid transparent;
+                border-bottom: 12px solid #fff;
+                transform: translateX(-50%);
+            }
+        .des_header{
+            font-size: 0.9rem;
+            font-weight: 600;
+            margin-bottom: 5px;
+        }
       .right_header_info{
         display: flex;
           font-size: 20px;
@@ -157,6 +212,7 @@ font-weight: bold;
          display: flex;
          align-items: center;
          height: 54px;
+
      }
      .logo{
          margin: 0px 20px;
@@ -184,6 +240,7 @@ font-weight: bold;
      .new a i{
          font-size: 0.6rem;
      }
+     
      .car img{
 height: 50px;
 margin: 0px 15px;

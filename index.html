@@ -12,10 +12,26 @@
     <link rel="stylesheet" href="asset/css/right_sidebar.css">
  <link rel="stylesheet" href="asset/css/footer.css">
 </head>
+<style>
+    .indicate{
+        position: relative;
+    }
+    .indicate::before{
+        content: "";
+        width: 100%;
+        height: 25px;
+        position: absolute;
+        top:  -10px;
+        left: 0;
 
+    }
+</style>
 <body>
  
     <div class="container">
+        <div class="header">
+
+    
     <div class="header_info">
         
        <div class="left_header_info">
@@ -291,7 +307,7 @@
         </ul>
       </div>
     </nav>
-   
+</div>
     <div class="main_section">
         <div class="register">
        <div class="register_header">
@@ -309,7 +325,16 @@
                         By phone
                     </div>
                 </div>
-                <form >
+                <form class="one_click_form" >
+                    <input type="text" class="form_control" placeholder="Search Country">
+                    <input type="text" class="form_control" name="" id="" placeholder="Currency">
+                    <input type="text" class="form_control" placeholder="Enter promo code (if you have one)">
+                    <div class="form_submit_overlay">
+                        <input type="submit" value="Register" class="form_submit">
+                    </div>
+                     
+                </form>
+                <form class="by_phone_form" >
                     <input type="text" class="form_control" placeholder="Search Country">
                     <input type="text" class="form_control" name="" id="" placeholder="Currency">
                     <input type="text" class="form_control" placeholder="Enter promo code (if you have one)">
@@ -2199,6 +2224,9 @@
        </div>
 </div>
 </div>
+<script>
+
+</script>
     <script src="https://kit.fontawesome.com/503de85b9f.js" crossorigin="anonymous"></script>
     <script src="asset/js/slider.js"></script>
 </body>
